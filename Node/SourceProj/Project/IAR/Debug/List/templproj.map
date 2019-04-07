@@ -1,0 +1,1441 @@
+###############################################################################
+#
+# IAR ELF Linker V2.20.1.176 for STM8                     04/Jan/2019  10:38:33
+# Copyright 2010-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Exe\templproj.out
+#    Map file     =  
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\List\templproj.map
+#    Command line =  
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\arg.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\assert.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\autostart.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\checkpoint.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\Chip.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\clock.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\Comm2Trm.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\CommPC.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\compower.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\crc16.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\ctimer.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\Dbg.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\DebugPort.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\EEPROM.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\energest.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\etimer.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\gcr.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\hal.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\ifft.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\libconio.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\list.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\main.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\me.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\me_tabs.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\memb.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\mmem.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\Monitor.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\Network.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\packetbuf.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\petsciiconv.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\print-stats.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\process.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\procinit.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\profile.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\PwrManage.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\random.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\rimeaddr.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\ringbuf.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\RTC.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\rtimer-arch.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\rtimer.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\sensors.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\settings.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\SHT7x.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\SPI.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stimer.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_adc.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_aes.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_beep.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_clk.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_comp.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_dac.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_dma.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_exti.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_flash.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_gpio.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_i2c.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_irtim.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_it.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_itc.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_iwdg.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_lcd.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_pwr.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_rst.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_rtc.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_spi.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_syscfg.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_tim1.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_tim2.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_tim3.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_tim4.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_tim5.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_usart.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_wfe.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\stm8l15x_wwdg.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\strncasecmp.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\sx1278_ports.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\sx1278_src.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\SystSettings.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\TempTimer.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\Tim4UART.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\timer.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\timetable-aggregate.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\timetable.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\trickle-timer.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\Util.o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj\Wdg.o
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb -o
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Exe\templproj.out
+#        --map
+#        F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\List\templproj.map
+#        --config "D:\IAR for STM8\stm8\config\lnkstm8l151c8.icf" --config_def
+#        _CSTACK_SIZE=0x100 --config_def _HEAP_SIZE=0x100 --entry
+#        __iar_program_start --debug_lib
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__Heap_Handler             = Basic
+__SystemLibrary            = DLib
+__code_model               = medium_or_large
+__core                     = stm8
+__data_model               = large
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__rt_version               = 4
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at start of [0x000000-0x0000ff] { rw section .vregs };
+"A2":  place at end of [0x000000-0x000fff] { block CSTACK };
+"P2":  place in [from 0x000000 to 0x000fff] {
+          block HEAP, rw section __DLIB_PERTHREAD, rw section .far.bss,
+          rw section .far.data, rw section .far.noinit,
+          rw section .far_func.textrw, rw section .huge.bss,
+          rw section .huge.data, rw section .huge.noinit,
+          rw section .huge_func.textrw, rw section .iar.dynexit,
+          rw section .near.bss, rw section .near.data, rw section .near.noinit,
+          rw section .near_func.textrw };
+"A3":  place at start of [0x008000-0x00ffff] { block INTVEC };
+"P3":  place in [from 0x008000 to 0x00ffff] {
+          ro section __DLIB_PERTHREAD_init, ro section .far.data_init,
+          ro section .far_func.textrw_init, ro section .huge.data_init,
+          ro section .huge_func.textrw_init, ro section .iar.init_table,
+          ro section .init_array, ro section .near.data_init,
+          ro section .near.rodata, ro section .near_func.text,
+          ro section .near_func.textrw_init, ro section .tiny.data_init,
+          ro section .tiny.rodata_init };
+"P4":  place in [from 0x008000 to 0x00ffff repeat 2] {
+          ro section .far.rodata, ro section .far_func.text };
+"P5":  place in [from 0x008000 to 0x017fff] {
+          ro section .huge.rodata, ro section .huge_func.text };
+
+  Section            Kind      Address    Size  Object
+  -------            ----      -------    ----  ------
+"A1":                                     0x10
+  .vregs             uninit   0x000000    0x10  vregs.o [4]
+                            - 0x000010    0x10
+
+"P2", part 1 of 3:                        0x30
+  P2-1                        0x000010    0x30  <Init block>
+    .near.data       inited   0x000010     0x2  clock.o [1]
+    .near.data       inited   0x000012     0xd  Comm2Trm.o [1]
+    .near.data       inited   0x00001f     0xd  etimer.o [1]
+    .near.data       inited   0x00002c     0x1  Network.o [1]
+    .near.data       inited   0x00002d     0x1  Network.o [1]
+    .near.data       inited   0x00002e     0x1  Network.o [1]
+    .near.data       inited   0x00002f     0xd  Network.o [1]
+    .near.data       inited   0x00003c     0x3  packetbuf.o [1]
+    .near.data       inited   0x00003f     0x1  sx1278_src.o [1]
+                            - 0x000040    0x30
+
+"P2", part 2 of 3:                       0x100
+  HEAP                        0x000040   0x100  <Block>
+    HEAP             uninit   0x000040   0x100  <Block tail>
+                            - 0x000140   0x100
+
+"P2", part 3 of 3:                       0xa55
+  .near.bss          zero     0x000140   0x132  packetbuf.o [1]
+  .near.bss          zero     0x000272   0x104  Network.o [1]
+  .near.bss          zero     0x000376   0x104  Network.o [1]
+  .near.bss          zero     0x00047a   0x103  Comm2Trm.o [1]
+  .near.bss          zero     0x00057d    0xff  Comm2Trm.o [1]
+  .near.bss          zero     0x00067c    0xff  CommPC.o [1]
+  .near.bss          zero     0x00077b    0xf8  Comm2Trm.o [1]
+  .near.bss          zero     0x000873    0xf8  Comm2Trm.o [1]
+  .near.bss          zero     0x00096b    0xe0  process.o [1]
+  .near.bss          zero     0x000a4b    0x30  packetbuf.o [1]
+  .near.bss          zero     0x000a7b    0x1b  Comm2Trm.o [1]
+  .near.bss          zero     0x000a96    0x1b  Network.o [1]
+  .near.bss          zero     0x000ab1    0x1a  Network.o [1]
+  .near.bss          zero     0x000acb    0x19  Chip.o [1]
+  .near.bss          zero     0x000ae4    0x14  Network.o [1]
+  .near.bss          zero     0x000af8    0x11  sx1278_src.o [1]
+  .near.bss          zero     0x000b09     0xc  Chip.o [1]
+  .near.bss          zero     0x000b15     0xa  Network.o [1]
+  .near.bss          zero     0x000b1f     0x8  packetbuf.o [1]
+  .near.bss          zero     0x000b27     0x8  sx1278_ports.o [1]
+  .far.bss           zero     0x000b2f     0x6  xxmemxmalloc.o [4]
+  .near.bss          zero     0x000b35     0x4  Chip.o [1]
+  .near.bss          zero     0x000b39     0x4  clock.o [1]
+  .near.bss          zero     0x000b3d     0x4  sx1278_src.o [1]
+  .near.bss          zero     0x000b41     0x3  etimer.o [1]
+  .near.bss          zero     0x000b44     0x3  Network.o [1]
+  .near.bss          zero     0x000b47     0x3  packetbuf.o [1]
+  .near.bss          zero     0x000b4a     0x3  process.o [1]
+  .near.bss          zero     0x000b4d     0x3  process.o [1]
+  .near.bss          zero     0x000b50     0x3  process.o [1]
+  .near.bss          zero     0x000b53     0x3  process.o [1]
+  .near.bss          zero     0x000b56     0x3  process.o [1]
+  .near.bss          zero     0x000b59     0x3  rtimer.o [1]
+  .near.bss          zero     0x000b5c     0x3  sx1278_src.o [1]
+  .near.bss          zero     0x000b5f     0x3  xgetmemchunk.o [4]
+  .near.bss          zero     0x000b62     0x2  clock.o [1]
+  .near.bss          zero     0x000b64     0x2  etimer.o [1]
+  .near.bss          zero     0x000b66     0x2  Network.o [1]
+  .near.bss          zero     0x000b68     0x2  Network.o [1]
+  .near.bss          zero     0x000b6a     0x2  Network.o [1]
+  .near.bss          zero     0x000b6c     0x2  Network.o [1]
+  .near.bss          zero     0x000b6e     0x2  Network.o [1]
+  .near.bss          zero     0x000b70     0x2  Network.o [1]
+  .near.bss          zero     0x000b72     0x2  Network.o [1]
+  .near.bss          zero     0x000b74     0x2  Network.o [1]
+  .near.bss          zero     0x000b76     0x2  packetbuf.o [1]
+  .near.bss          zero     0x000b78     0x2  packetbuf.o [1]
+  .near.bss          zero     0x000b7a     0x1  Chip.o [1]
+  .near.bss          zero     0x000b7b     0x1  Comm2Trm.o [1]
+  .near.bss          zero     0x000b7c     0x1  CommPC.o [1]
+  .near.bss          zero     0x000b7d     0x1  Network.o [1]
+  .near.bss          zero     0x000b7e     0x1  Network.o [1]
+  .near.bss          zero     0x000b7f     0x1  Network.o [1]
+  .near.bss          zero     0x000b80     0x1  Network.o [1]
+  .near.bss          zero     0x000b81     0x1  Network.o [1]
+  .near.bss          zero     0x000b82     0x1  Network.o [1]
+  .near.bss          zero     0x000b83     0x1  Network.o [1]
+  .near.bss          zero     0x000b84     0x1  Network.o [1]
+  .near.bss          zero     0x000b85     0x1  Network.o [1]
+  .near.bss          zero     0x000b86     0x1  Network.o [1]
+  .near.bss          zero     0x000b87     0x1  Network.o [1]
+  .near.bss          zero     0x000b88     0x1  Network.o [1]
+  .near.bss          zero     0x000b89     0x1  Network.o [1]
+  .near.bss          zero     0x000b8a     0x1  packetbuf.o [1]
+  .near.bss          zero     0x000b8b     0x1  process.o [1]
+  .near.bss          zero     0x000b8c     0x1  process.o [1]
+  .near.bss          zero     0x000b8d     0x1  process.o [1]
+  .near.bss          zero     0x000b8e     0x1  process.o [1]
+  .near.bss          zero     0x000b8f     0x1  process.o [1]
+  .near.bss          zero     0x000b90     0x1  process.o [1]
+  .near.bss          zero     0x000b91     0x1  PwrManage.o [1]
+  .near.bss          zero     0x000b92     0x1  PwrManage.o [1]
+  .near.bss          zero     0x000b93     0x1  sx1278_src.o [1]
+  .near.bss          zero     0x000b94     0x1  Tim4UART.o [1]
+                            - 0x000b95   0xa55
+
+"A2":                                    0x100
+  CSTACK                      0x000f00   0x100  <Block>
+    CSTACK           uninit   0x000f00   0x100  <Block tail>
+                            - 0x001000   0x100
+
+"A3":                                     0x80
+  INTVEC                      0x008000    0x80  <Block>
+    .intvec          const    0x008000    0x80  interrupt.o [4]
+                            - 0x008080    0x80
+
+"P3":                                     0x45
+  Initializer bytes  const    0x008080    0x30  <for P2-1>
+  .iar.init_table    const    0x0080b0    0x15  - Linker created -
+                            - 0x0080c5    0x45
+
+"P4", part 1 of 2:                      0x1411
+  .far_func.text     ro code  0x0080c5   0x4c1  float.o [4]
+  .far_func.text     ro code  0x008586   0x267  xxmemxfree.o [4]
+  .far_func.text     ro code  0x0087ed   0x241  long.o [4]
+  .far_func.text     ro code  0x008a2e   0x224  vreg_util.o [4]
+  .far_func.text     ro code  0x008c52   0x1d6  xxmemxmalloc.o [4]
+  .far.rodata        const    0x008e28   0x148  Chip.o [1]
+  .far_func.text     ro code  0x008f70   0x137  xdint.o [4]
+  .far.rodata        const    0x0090a7   0x100  Util.o [1]
+  .far.rodata        const    0x0091a7   0x100  Util.o [1]
+  .far_func.text     ro code  0x0092a7    0xd8  xxmemxmalloc.o [4]
+  .far_func.text     ro code  0x00937f    0xb3  xgetmemchunk.o [4]
+  .far_func.text     ro code  0x009432    0xa4  far_util.o [4]
+                            - 0x0094d6  0x1411
+
+"P5":                                   0x856e
+  .huge_func.text    ro code  0x0094d6   0x839  SystSettings.o [1]
+  .huge_func.text    ro code  0x009d0f   0x3f4  etimer.o [1]
+  .huge_func.text    ro code  0x00a103   0x318  Network.o [1]
+  .huge_func.text    ro code  0x00a41b   0x2ec  sx1278_src.o [1]
+  .huge_func.text    ro code  0x00a707   0x2d2  Network.o [1]
+  .huge_func.text    ro code  0x00a9d9   0x297  process.o [1]
+  .huge_func.text    ro code  0x00ac70   0x253  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x00aec3   0x246  Network.o [1]
+  .huge_func.text    ro code  0x00b109   0x240  Chip.o [1]
+  .huge_func.text    ro code  0x00b349   0x23d  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x00b586   0x231  SystSettings.o [1]
+  .huge_func.text    ro code  0x00b7b7   0x22d  Network.o [1]
+  .huge_func.text    ro code  0x00b9e4   0x20e  RTC.o [1]
+  .huge_func.text    ro code  0x00bbf2   0x200  Network.o [1]
+  .huge_func.text    ro code  0x00bdf2   0x1f7  Network.o [1]
+  .huge_func.text    ro code  0x00bfe9   0x1de  stm8l15x_usart.o [1]
+  .huge_func.text    ro code  0x00c1c7   0x1db  RTC.o [1]
+  .huge_func.text    ro code  0x00c3a2   0x1c9  Network.o [1]
+  .huge_func.text    ro code  0x00c56b   0x1b6  sx1278_src.o [1]
+  .huge_func.text    ro code  0x00c721   0x1b1  sx1278_src.o [1]
+  .huge_func.text    ro code  0x00c8d2   0x1ac  Network.o [1]
+  .huge_func.text    ro code  0x00ca7e   0x17c  stm8l15x_exti.o [1]
+  .huge_func.text    ro code  0x00cbfa   0x15b  Network.o [1]
+  .huge_func.text    ro code  0x00cd55   0x158  stm8l15x_gpio.o [1]
+  .huge_func.text    ro code  0x00cead   0x146  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x00cff3   0x146  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x00d139   0x143  etimer.o [1]
+  .huge_func.text    ro code  0x00d27c   0x13a  etimer.o [1]
+  .huge_func.text    ro code  0x00d3b6   0x139  stm8l15x_usart.o [1]
+  .huge_func.text    ro code  0x00d4ef   0x132  Chip.o [1]
+  .huge_func.text    ro code  0x00d621   0x132  Chip.o [1]
+  .huge_func.text    ro code  0x00d753   0x124  stm8l15x_dma.o [1]
+  .huge_func.text    ro code  0x00d877   0x11b  Network.o [1]
+  .huge_func.text    ro code  0x00d992   0x11a  process.o [1]
+  .huge_func.text    ro code  0x00daac   0x117  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x00dbc3   0x116  CommPC.o [1]
+  .huge_func.text    ro code  0x00dcd9   0x10f  process.o [1]
+  .huge_func.text    ro code  0x00dde8    0xfd  sx1278_src.o [1]
+  .huge_func.text    ro code  0x00dee5    0xfb  Network.o [1]
+  .huge_func.text    ro code  0x00dfe0    0xf5  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x00e0d5    0xe9  Network.o [1]
+  .huge_func.text    ro code  0x00e1be    0xe4  sx1278_src.o [1]
+  .huge_func.text    ro code  0x00e2a2    0xe3  process.o [1]
+  .huge_func.text    ro code  0x00e385    0xe1  SystSettings.o [1]
+  .huge_func.text    ro code  0x00e466    0xd9  Network.o [1]
+  .huge_func.text    ro code  0x00e53f    0xd8  Network.o [1]
+  .huge_func.text    ro code  0x00e617    0xc8  EEPROM.o [1]
+  .huge_func.text    ro code  0x00e6df    0xc3  stm8l15x_clk.o [1]
+  .huge_func.text    ro code  0x00e7a2    0xc3  stm8l15x_dma.o [1]
+  .huge_func.text    ro code  0x00e865    0xbf  RTC.o [1]
+  .huge_func.text    ro code  0x00e924    0xbe  sx1278_src.o [1]
+  .huge_func.text    ro code  0x00e9e2    0xb7  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x00ea99    0xb4  stm8l15x_spi.o [1]
+  .huge_func.text    ro code  0x00eb4d    0xb3  stm8l15x_clk.o [1]
+  .huge_func.text    ro code  0x00ec00    0xb2  rtimer.o [1]
+  .huge_func.text    ro code  0x00ecb2    0xb0  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x00ed62    0xae  rtimer.o [1]
+  .huge_func.text    ro code  0x00ee10    0xad  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x00eebd    0xac  sx1278_src.o [1]
+  .huge_func.text    ro code  0x00ef69    0xa3  stm8l15x_clk.o [1]
+  .huge_func.text    ro code  0x00f00c    0xa3  sx1278_src.o [1]
+  .huge_func.text    ro code  0x00f0af    0xa2  stm8l15x_dma.o [1]
+  .huge_func.text    ro code  0x00f151    0xa0  EEPROM.o [1]
+  .huge_func.text    ro code  0x00f1f1    0xa0  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x00f291    0x9e  Network.o [1]
+  .huge_func.text    ro code  0x00f32f    0x96  stm8l15x_dma.o [1]
+  .huge_func.text    ro code  0x00f3c5    0x93  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x00f458    0x91  process.o [1]
+  .huge_func.text    ro code  0x00f4e9    0x8f  Network.o [1]
+  .huge_func.text    ro code  0x00f578    0x8a  CommPC.o [1]
+  .huge_func.text    ro code  0x00f602    0x86  Util.o [1]
+  .huge_func.text    ro code  0x00f688    0x84  RTC.o [1]
+  .huge_func.text    ro code  0x00f70c    0x82  sx1278_src.o [1]
+  .huge_func.text    ro code  0x00f78e    0x80  RTC.o [1]
+  .huge_func.text    ro code  0x00f80e    0x80  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x00f88e    0x7f  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x00f90d    0x7e  Tim4UART.o [1]
+  .huge_func.text    ro code  0x00f98b    0x7c  process.o [1]
+  .huge_func.text    ro code  0x00fa07    0x7c  SPI.o [1]
+  .huge_func.text    ro code  0x00fa83    0x7c  SPI.o [1]
+  .huge_func.text    ro code  0x00faff    0x73  Network.o [1]
+  .huge_func.text    ro code  0x00fb72    0x73  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x00fbe5    0x71  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x00fc56    0x6b  sx1278_src.o [1]
+  .huge_func.text    ro code  0x00fcc1    0x6a  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x00fd2b    0x69  sx1278_src.o [1]
+  .huge_func.text    ro code  0x00fd94    0x68  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x00fdfc    0x66  clock.o [1]
+  .huge_func.text    ro code  0x00fe62    0x66  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x00fec8    0x66  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x00ff2e    0x65  stm8l15x_flash.o [1]
+  .huge_func.text    ro code  0x00ff93    0x5e  SystSettings.o [1]
+  .huge_func.text    ro code  0x00fff1    0x5d  Network.o [1]
+  .huge_func.text    ro code  0x01004e    0x5b  process.o [1]
+  .huge_func.text    ro code  0x0100a9    0x5a  stm8l15x_gpio.o [1]
+  .huge_func.text    ro code  0x010103    0x5a  stm8l15x_usart.o [1]
+  .huge_func.text    ro code  0x01015d    0x59  Chip.o [1]
+  .huge_func.text    ro code  0x0101b6    0x59  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x01020f    0x57  Network.o [1]
+  .huge_func.text    ro code  0x010266    0x57  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x0102bd    0x56  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x010313    0x56  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x010369    0x54  main.o [1]
+  .huge_func.text    ro code  0x0103bd    0x53  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x010410    0x52  packetbuf.o [1]
+  .huge_func.text    ro code  0x010462    0x4f  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x0104b1    0x4f  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x010500    0x4f  stm8l15x_spi.o [1]
+  .huge_func.text    ro code  0x01054f    0x4e  sx1278_src.o [1]
+  .huge_func.text    ro code  0x01059d    0x4d  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x0105ea    0x4c  Network.o [1]
+  .huge_func.text    ro code  0x010636    0x4a  stm8l15x_usart.o [1]
+  .huge_func.text    ro code  0x010680    0x4a  timer.o [1]
+  .huge_func.text    ro code  0x0106ca    0x49  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x010713    0x49  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x01075c    0x49  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x0107a5    0x46  sx1278_src.o [1]
+  .huge_func.text    ro code  0x0107eb    0x46  timer.o [1]
+  .huge_func.text    ro code  0x010831    0x46  Util.o [1]
+  .huge_func.text    ro code  0x010877    0x43  CommPC.o [1]
+  .huge_func.text    ro code  0x0108ba    0x41  Network.o [1]
+  .huge_func.text    ro code  0x0108fb    0x3f  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x01093a    0x3e  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x010978    0x3d  process.o [1]
+  .huge_func.text    ro code  0x0109b5    0x3d  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x0109f2    0x3b  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x010a2d    0x3b  sx1278_src.o [1]
+  .huge_func.text    ro code  0x010a68    0x3a  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x010aa2    0x3a  sx1278_src.o [1]
+  .huge_func.text    ro code  0x010adc    0x37  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x010b13    0x36  Network.o [1]
+  .huge_func.text    ro code  0x010b49    0x36  Network.o [1]
+  .huge_func.text    ro code  0x010b7f    0x35  CommPC.o [1]
+  .huge_func.text    ro code  0x010bb4    0x30  clock.o [1]
+  .huge_func.text    ro code  0x010be4    0x2f  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x010c13    0x2e  CommPC.o [1]
+  .huge_func.text    ro code  0x010c41    0x2d  Network.o [1]
+  .huge_func.text    ro code  0x010c6e    0x2d  stm8l15x_flash.o [1]
+  .huge_func.text    ro code  0x010c9b    0x2d  stm8l15x_tim5.o [1]
+  .huge_func.text    ro code  0x010cc8    0x2c  Network.o [1]
+  .huge_func.text    ro code  0x010cf4    0x2c  Network.o [1]
+  .huge_func.text    ro code  0x010d20    0x2c  sx1278_src.o [1]
+  .huge_func.text    ro code  0x010d4c    0x2b  stm8l15x_tim1.o [1]
+  .huge_func.text    ro code  0x010d77    0x2b  stm8l15x_tim1.o [1]
+  .huge_func.text    ro code  0x010da2    0x2b  sx1278_src.o [1]
+  .huge_func.text    ro code  0x010dcd    0x2a  packetbuf.o [1]
+  .huge_func.text    ro code  0x010df7    0x2a  stm8l15x_tim4.o [1]
+  .huge_func.text    ro code  0x010e21    0x2a  Util.o [1]
+  .huge_func.text    ro code  0x010e4b    0x29  etimer.o [1]
+  .huge_func.text    ro code  0x010e74    0x29  Network.o [1]
+  .huge_func.text    ro code  0x010e9d    0x28  process.o [1]
+  .huge_func.text    ro code  0x010ec5    0x28  rimeaddr.o [1]
+  .huge_func.text    ro code  0x010eed    0x28  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x010f15    0x28  Tim4UART.o [1]
+  .huge_func.text    ro code  0x010f3d    0x27  Network.o [1]
+  .huge_func.text    ro code  0x010f64    0x27  stm8l15x_flash.o [1]
+  .huge_func.text    ro code  0x010f8b    0x27  stm8l15x_spi.o [1]
+  .huge_func.text    ro code  0x010fb2    0x25  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x010fd7    0x25  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x010ffc    0x25  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x011021    0x25  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x011046    0x25  sx1278_src.o [1]
+  .huge_func.text    ro code  0x01106b    0x25  sx1278_src.o [1]
+  .huge_func.text    ro code  0x011090    0x24  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x0110b4    0x24  stm8l15x_exti.o [1]
+  .huge_func.text    ro code  0x0110d8    0x23  sx1278_src.o [1]
+  .huge_func.text    ro code  0x0110fb    0x22  stm8l15x_dma.o [1]
+  .huge_func.text    ro code  0x01111d    0x22  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x01113f    0x22  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011161    0x22  stm8l15x_tim1.o [1]
+  .huge_func.text    ro code  0x011183    0x22  stm8l15x_tim4.o [1]
+  .huge_func.text    ro code  0x0111a5    0x22  stm8l15x_tim5.o [1]
+  .huge_func.text    ro code  0x0111c7    0x21  clock.o [1]
+  .huge_func.text    ro code  0x0111e8    0x21  clock.o [1]
+  .huge_func.text    ro code  0x011209    0x21  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x01122a    0x21  PwrManage.o [1]
+  .huge_func.text    ro code  0x01124b    0x21  rtimer-arch.o [1]
+  .huge_func.text    ro code  0x01126c    0x21  rtimer-arch.o [1]
+  .huge_func.text    ro code  0x01128d    0x21  stm8l15x_clk.o [1]
+  .huge_func.text    ro code  0x0112ae    0x21  sx1278_src.o [1]
+  .huge_func.text    ro code  0x0112cf    0x20  Network.o [1]
+  .huge_func.text    ro code  0x0112ef    0x20  PwrManage.o [1]
+  .huge_func.text    ro code  0x01130f    0x20  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x01132f    0x20  sx1278_src.o [1]
+  .huge_func.text    ro code  0x01134f    0x1f  process.o [1]
+  .huge_func.text    ro code  0x01136e    0x1d  stm8l15x_clk.o [1]
+  .huge_func.text    ro code  0x01138b    0x1d  stm8l15x_dma.o [1]
+  .huge_func.text    ro code  0x0113a8    0x1d  stm8l15x_dma.o [1]
+  .huge_func.text    ro code  0x0113c5    0x1d  stm8l15x_pwr.o [1]
+  .huge_func.text    ro code  0x0113e2    0x1d  stm8l15x_pwr.o [1]
+  .huge_func.text    ro code  0x0113ff    0x1d  stm8l15x_spi.o [1]
+  .huge_func.text    ro code  0x01141c    0x1d  stm8l15x_tim1.o [1]
+  .huge_func.text    ro code  0x011439    0x1d  stm8l15x_tim4.o [1]
+  .huge_func.text    ro code  0x011456    0x1d  stm8l15x_tim5.o [1]
+  .huge_func.text    ro code  0x011473    0x1c  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x01148f    0x1c  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x0114ab    0x1c  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x0114c7    0x1c  packetbuf.o [1]
+  .huge_func.text    ro code  0x0114e3    0x1c  rtimer-arch.o [1]
+  .huge_func.text    ro code  0x0114ff    0x1b  Network.o [1]
+  .huge_func.text    ro code  0x01151a    0x1b  PwrManage.o [1]
+  .huge_func.text    ro code  0x011535    0x1b  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011550    0x1b  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x01156b    0x1b  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011586    0x1b  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x0115a1    0x1b  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x0115bc    0x1b  Wdg.o [1]
+  .huge_func.text    ro code  0x0115d7    0x1a  stm8l15x_flash.o [1]
+  .huge_func.text    ro code  0x0115f1    0x1a  stm8l15x_tim4.o [1]
+  .huge_func.text    ro code  0x01160b    0x1a  sx1278_src.o [1]
+  .huge_func.text    ro code  0x011625    0x1a  sx1278_src.o [1]
+  .huge_func.text    ro code  0x01163f    0x1a  sx1278_src.o [1]
+  .huge_func.text    ro code  0x011659    0x1a  SystSettings.o [1]
+  .huge_func.text    ro code  0x011673    0x1a  SystSettings.o [1]
+  .huge_func.text    ro code  0x01168d    0x19  process.o [1]
+  .huge_func.text    ro code  0x0116a6    0x18  etimer.o [1]
+  .huge_func.text    ro code  0x0116be    0x17  stm8l15x_flash.o [1]
+  .huge_func.text    ro code  0x0116d5    0x17  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x0116ec    0x15  stm8l15x_tim4.o [1]
+  .huge_func.text    ro code  0x011701    0x15  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x011716    0x14  Network.o [1]
+  .huge_func.text    ro code  0x01172a    0x13  Chip.o [1]
+  .huge_func.text    ro code  0x01173d    0x13  Chip.o [1]
+  .huge_func.text    ro code  0x011750    0x13  Chip.o [1]
+  .huge_func.text    ro code  0x011763    0x13  Chip.o [1]
+  .huge_func.text    ro code  0x011776    0x13  PwrManage.o [1]
+  .huge_func.text    ro code  0x011789    0x13  rtimer-arch.o [1]
+  .huge_func.text    ro code  0x01179c    0x13  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x0117af    0x12  RTC.o [1]
+  .huge_func.text    ro code  0x0117c1    0x12  stm8l15x_dma.o [1]
+  .huge_func.text    ro code  0x0117d3    0x12  stm8l15x_gpio.o [1]
+  .huge_func.text    ro code  0x0117e5    0x12  stm8l15x_spi.o [1]
+  .huge_func.text    ro code  0x0117f7    0x11  clock.o [1]
+  .huge_func.text    ro code  0x011808    0x11  Comm2Trm.o [1]
+  .huge_func.text    ro code  0x011819    0x11  rtimer.o [1]
+  .huge_func.text    ro code  0x01182a    0x11  stm8l15x_dma.o [1]
+  .huge_func.text    ro code  0x01183b    0x10  Network.o [1]
+  .huge_func.text    ro code  0x01184b    0x10  Network.o [1]
+  .huge_func.text    ro code  0x01185b     0xf  RTC.o [1]
+  .huge_func.text    ro code  0x01186a     0xf  stm8l15x_tim1.o [1]
+  .huge_func.text    ro code  0x011879     0xf  sx1278_src.o [1]
+  .huge_func.text    ro code  0x011888     0xf  sx1278_src.o [1]
+  .huge_func.text    ro code  0x011897     0xf  sx1278_src.o [1]
+  .huge_func.text    ro code  0x0118a6     0xe  etimer.o [1]
+  .huge_func.text    ro code  0x0118b4     0xe  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x0118c2     0xe  stm8l15x_spi.o [1]
+  .huge_func.text    ro code  0x0118d0     0xe  sx1278_src.o [1]
+  .huge_func.text    ro code  0x0118de     0xd  Network.o [1]
+  .huge_func.text    ro code  0x0118eb     0xd  stm8l15x_flash.o [1]
+  .huge_func.text    ro code  0x0118f8     0xd  stm8l15x_gpio.o [1]
+  .huge_func.text    ro code  0x011905     0xd  stm8l15x_tim5.o [1]
+  .huge_func.text    ro code  0x011912     0xd  stm8l15x_usart.o [1]
+  .huge_func.text    ro code  0x01191f     0xd  sx1278_src.o [1]
+  .huge_func.text    ro code  0x01192c     0xc  etimer.o [1]
+  .huge_func.text    ro code  0x011938     0xc  Network.o [1]
+  .huge_func.text    ro code  0x011944     0xb  stm8l15x_clk.o [1]
+  .huge_func.text    ro code  0x01194f     0xb  stm8l15x_flash.o [1]
+  .huge_func.text    ro code  0x01195a     0xb  stm8l15x_rtc.o [1]
+  .huge_func.text    ro code  0x011965     0xb  stm8l15x_tim1.o [1]
+  .huge_func.text    ro code  0x011970     0xb  stm8l15x_tim5.o [1]
+  .huge_func.text    ro code  0x01197b     0xa  stm8l15x_tim1.o [1]
+  .huge_func.text    ro code  0x011985     0xa  stm8l15x_tim4.o [1]
+  .huge_func.text    ro code  0x01198f     0xa  stm8l15x_tim5.o [1]
+  .huge_func.text    ro code  0x011999     0x9  rtimer-arch.o [1]
+  .huge_func.text    ro code  0x0119a2     0x9  Tim4UART.o [1]
+  .huge_func.text    ro code  0x0119ab     0x8  Chip.o [1]
+  .huge_func.text    ro code  0x0119b3     0x8  Chip.o [1]
+  .huge_func.text    ro code  0x0119bb     0x8  Network.o [1]
+  .huge_func.text    ro code  0x0119c3     0x8  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x0119cb     0x7  stm8l15x_flash.o [1]
+  .huge_func.text    ro code  0x0119d2     0x7  stm8l15x_iwdg.o [1]
+  .huge_func.text    ro code  0x0119d9     0x7  stm8l15x_iwdg.o [1]
+  .huge_func.text    ro code  0x0119e0     0x6  EEPROM.o [1]
+  .huge_func.text    ro code  0x0119e6     0x5  PwrManage.o [1]
+  .huge_func.text    ro code  0x0119eb     0x5  rtimer.o [1]
+  .huge_func.text    ro code  0x0119f0     0x5  stm8l15x_clk.o [1]
+  .huge_func.text    ro code  0x0119f5     0x5  stm8l15x_iwdg.o [1]
+  .huge_func.text    ro code  0x0119fa     0x5  stm8l15x_iwdg.o [1]
+  .huge_func.text    ro code  0x0119ff     0x5  stm8l15x_iwdg.o [1]
+  .huge_func.text    ro code  0x011a04     0x5  stm8l15x_tim4.o [1]
+  .huge_func.text    ro code  0x011a09     0x5  stm8l15x_tim4.o [1]
+  .huge_func.text    ro code  0x011a0e     0x5  sx1278_ports.o [1]
+  .huge_func.text    ro code  0x011a13     0x5  Wdg.o [1]
+  .huge_func.text    ro code  0x011a18     0x4  Network.o [1]
+  .huge_func.text    ro code  0x011a1c     0x4  packetbuf.o [1]
+  .huge_func.text    ro code  0x011a20     0x4  packetbuf.o [1]
+  .huge_func.text    ro code  0x011a24     0x4  sx1278_src.o [1]
+  .huge_func.text    ro code  0x011a28     0x4  sx1278_src.o [1]
+  .huge_func.text    ro code  0x011a2c     0x1  energest.o [1]
+  .huge_func.text    ro code  0x011a2d     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a2e     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a2f     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a30     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a31     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a32     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a33     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a34     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a35     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a36     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a37     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a38     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a39     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a3a     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a3b     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a3c     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a3d     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a3e     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a3f     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a40     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a41     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a42     0x1  stm8l15x_it.o [1]
+  .huge_func.text    ro code  0x011a43     0x1  stm8l15x_it.o [1]
+                            - 0x011a44  0x856e
+
+"P4", part 2 of 2:                       0x535
+  .far_func.text     ro code  0x011a44    0x7a  long_util.o [4]
+  .far_func.text     ro code  0x011abe    0x4c  ceil.o [4]
+  .far_func.text     ro code  0x011b0a    0x43  short.o [4]
+  .far_func.text     ro code  0x011b4d    0x40  init.o [4]
+  .far_func.text     ro code  0x011b8d    0x39  strcat.o [4]
+  .far_func.text     ro code  0x011bc6    0x31  memcpy.o [4]
+  .far.rodata        const    0x011bf7    0x2d  Comm2Trm.o [1]
+  .far_func.text     ro code  0x011c24    0x2c  dc_util.o [4]
+  .far_func.text     ro code  0x011c50    0x2a  init.o [4]
+  .far.rodata        const    0x011c7a    0x28  sx1278_src.o [1]
+  .far_func.text     ro code  0x011ca2    0x28  strcpy.o [4]
+  .far.rodata        const    0x011cca    0x20  Comm2Trm.o [1]
+  .far.rodata        const    0x011cea    0x1e  Comm2Trm.o [1]
+  .far.rodata        const    0x011d08    0x1e  Network.o [1]
+  .far_func.text     ro code  0x011d26    0x1e  init.o [4]
+  .far.rodata        const    0x011d44    0x1c  Comm2Trm.o [1]
+  .far.rodata        const    0x011d60    0x1c  Comm2Trm.o [1]
+  .far.rodata        const    0x011d7c    0x1c  SystSettings.o [1]
+  .far.rodata        const    0x011d98    0x1b  SystSettings.o [1]
+  .far_func.text     ro code  0x011db3    0x1b  strlen.o [4]
+  .far_func.text     ro code  0x011dce    0x1a  char.o [4]
+  .far_func.text     ro code  0x011de8    0x1a  __dbg_xxexit.o [3]
+  .far.rodata        const    0x011e02    0x18  Network.o [1]
+  .far_func.text     ro code  0x011e1a    0x17  cstartup.o [4]
+  .far.rodata        const    0x011e31    0x14  Network.o [1]
+  .far.rodata        const    0x011e45    0x14  Network.o [1]
+  .far_func.text     ro code  0x011e59    0x13  xxmemxmalloc.o [4]
+  .far.rodata        const    0x011e6c    0x10  Network.o [1]
+  .far_func.text     ro code  0x011e7c     0xf  xxmemxmalloc.o [4]
+  .far_func.text     ro code  0x011e8b     0xf  xgetmemchunk.o [4]
+  .far.rodata        const    0x011e9a     0xe  Comm2Trm.o [1]
+  .far_func.text     ro code  0x011ea8     0xe  xdint.o [4]
+  .far_func.text     ro code  0x011eb6     0xd  xxmemxmalloc.o [4]
+  .far_func.text     ro code  0x011ec3     0xd  xgetmemchunk.o [4]
+  .far.rodata        const    0x011ed0     0xc  Comm2Trm.o [1]
+  .far.rodata        const    0x011edc     0xc  etimer.o [1]
+  .far_func.text     ro code  0x011ee8     0xb  abs.o [4]
+  .far_func.text     ro code  0x011ef3     0xb  xxmemxmalloc.o [4]
+  .far_func.text     ro code  0x011efe     0xb  xdint.o [4]
+  .far_func.text     ro code  0x011f09     0xb  xdint.o [4]
+  .far_func.text     ro code  0x011f14     0xb  init.o [4]
+  .far_func.text     ro code  0x011f1f     0xa  far.o [4]
+  .far.rodata        const    0x011f29     0x9  SystSettings.o [1]
+  .far_func.text     ro code  0x011f32     0x9  labs.o [4]
+  .far.rodata        const    0x011f3b     0x6  Comm2Trm.o [1]
+  .far.rodata        const    0x011f41     0x6  Comm2Trm.o [1]
+  .far_func.text     ro code  0x011f47     0x6  cexit.o [4]
+  .far.rodata        const    0x011f4d     0x5  stm8l15x_clk.o [1]
+  .far.rodata        const    0x011f52     0x5  SystSettings.o [1]
+  .far.rodata        const    0x011f57     0x4  Network.o [1]
+  .far.rodata        const    0x011f5b     0x4  Network.o [1]
+  .far_func.text     ro code  0x011f5f     0x4  interrupt.o [4]
+  .far_func.text     ro code  0x011f63     0x4  exit.o [4]
+  .far.rodata        const    0x011f67     0x3  Comm2Trm.o [1]
+  .far.rodata        const    0x011f6a     0x3  Comm2Trm.o [1]
+  .far.rodata        const    0x011f6d     0x3  SystSettings.o [1]
+  .far_func.text     ro code  0x011f70     0x3  low_level_init.o [4]
+  .far_func.text     ro code  0x011f73     0x3  unhandled_exception.o [4]
+  .far.rodata        const    0x011f76     0x2  rimeaddr.o [1]
+  .far_func.text     ro code  0x011f78     0x1  __dbg_break.o [3]
+                            - 0x011f79   0x535
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address   Size
+          -------   ----
+Zero (__iar_zero_init2)
+    1 destination range, total size 0xa55:
+          0x000140  0xa55
+
+Copy (__iar_copy_init2)
+    1 source range, total size 0x30:
+          0x008080   0x30
+    1 destination range, total size 0x30:
+          0x000010   0x30
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj: [1]
+    Chip.o                   1 369      328       42
+    Comm2Trm.o               2 523      220    1 051
+    CommPC.o                   582               256
+    EEPROM.o                   366
+    Network.o                7 306      134      651
+    PwrManage.o                116                 2
+    RTC.o                    1 485
+    SPI.o                      248
+    SystSettings.o           3 037       72
+    Tim4UART.o                 175                 1
+    Util.o                     246      512
+    Wdg.o                       32
+    clock.o                    233        2        8
+    energest.o                   1
+    etimer.o                 1 740       25       18
+    main.o                      84
+    packetbuf.o                160        3      373
+    process.o                1 960               245
+    rimeaddr.o                  40        2
+    rtimer-arch.o              122
+    rtimer.o                   374                 3
+    stm8l15x_clk.o             615        5
+    stm8l15x_dma.o             926
+    stm8l15x_exti.o            416
+    stm8l15x_flash.o           265
+    stm8l15x_gpio.o            465
+    stm8l15x_it.o              236
+    stm8l15x_iwdg.o             29
+    stm8l15x_pwr.o              58
+    stm8l15x_rtc.o           2 580
+    stm8l15x_spi.o             359
+    stm8l15x_tim1.o            185
+    stm8l15x_tim4.o            172
+    stm8l15x_tim5.o            142
+    stm8l15x_usart.o           968
+    sx1278_ports.o             748                 8
+    sx1278_src.o             3 651       41       26
+    timer.o                    144
+    ------------------------------------------------
+    Total:                  34 158    1 344    2 684
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dbgstm8mld.a: [3]
+    __dbg_break.o                1
+    __dbg_xxexit.o              26
+    ------------------------------------------------
+    Total:                      27
+
+dlstm8mln.a: [4]
+    abs.o                       11
+    ceil.o                      76
+    cexit.o                      6
+    char.o                      26
+    cstartup.o                  23
+    dc_util.o                   44
+    exit.o                       4
+    far.o                       10
+    far_util.o                 164
+    float.o                  1 217
+    init.o                     147
+    interrupt.o                  4      128
+    labs.o                       9
+    long.o                     577
+    long_util.o                122
+    low_level_init.o             3
+    memcpy.o                    49
+    short.o                     67
+    strcat.o                    57
+    strcpy.o                    40
+    strlen.o                    27
+    unhandled_exception.o        3
+    vreg_util.o                548
+    vregs.o                                       16
+    xdint.o                    347
+    xgetmemchunk.o             207                 3
+    xxmemxfree.o               615
+    xxmemxmalloc.o             744                 6
+    ------------------------------------------------
+    Total:                   5 147      128       25
+
+    Linker created                       21      512
+----------------------------------------------------
+    Grand Total:            39 332    1 493    3 221
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address   Size  Type      Object
+-----                    -------   ----  ----      ------
+.iar.init_table$$Base   0x0080b0          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0080c5          --   Gb  - Linker created -
+?add32_l0_l0_0x         0x008836         Code  Gb  long.o [4]
+?add32_l0_l0_l1         0x008833         Code  Gb  long.o [4]
+?b0                     0x000000         Data  Gb  vregs.o [4]
+?b1                     0x000001         Data  Gb  vregs.o [4]
+?b10                    0x00000a         Data  Gb  vregs.o [4]
+?b11                    0x00000b         Data  Gb  vregs.o [4]
+?b12                    0x00000c         Data  Gb  vregs.o [4]
+?b13                    0x00000d         Data  Gb  vregs.o [4]
+?b14                    0x00000e         Data  Gb  vregs.o [4]
+?b15                    0x00000f         Data  Gb  vregs.o [4]
+?b2                     0x000002         Data  Gb  vregs.o [4]
+?b3                     0x000003         Data  Gb  vregs.o [4]
+?b4                     0x000004         Data  Gb  vregs.o [4]
+?b5                     0x000005         Data  Gb  vregs.o [4]
+?b6                     0x000006         Data  Gb  vregs.o [4]
+?b7                     0x000007         Data  Gb  vregs.o [4]
+?b8                     0x000008         Data  Gb  vregs.o [4]
+?b9                     0x000009         Data  Gb  vregs.o [4]
+?dc32_l1                0x011c24         Code  Gb  dc_util.o [4]
+?dec32_0x_0x            0x00881f         Code  Gb  long.o [4]
+?dec32_l0_l0            0x008815         Code  Gb  long.o [4]
+?dec32_l1_l1            0x00881a         Code  Gb  long.o [4]
+?e0                     0x000001         Data  Gb  vregs.o [4]
+?e1                     0x000005         Data  Gb  vregs.o [4]
+?e2                     0x000009         Data  Gb  vregs.o [4]
+?e3                     0x00000d         Data  Gb  vregs.o [4]
+?epilogue_l2            0x008ba1         Code  Gb  vreg_util.o [4]
+?epilogue_l2_l3         0x008b9d         Code  Gb  vreg_util.o [4]
+?epilogue_l2_w6         0x008ba6         Code  Gb  vreg_util.o [4]
+?epilogue_w4            0x008baf         Code  Gb  vreg_util.o [4]
+?fadd32_l0_l0_dc32      0x0080e3         Code  Gb  float.o [4]
+?fadd32_l0_l0_l1        0x0080e9         Code  Gb  float.o [4]
+?fcastf32s16_l0_x       0x00836b         Code  Gb  float.o [4]
+?fcastf32s32_l0_l0      0x00843f         Code  Gb  float.o [4]
+?fcastf32u16_l0_x       0x008372         Code  Gb  float.o [4]
+?fcastf32u32_l0_l0      0x00844b         Code  Gb  float.o [4]
+?fcasts16f32_x_l0       0x008390         Code  Gb  float.o [4]
+?fcasts32f32_l0_l0      0x0083dc         Code  Gb  float.o [4]
+?fcastu32f32_l0_l0      0x0083c5         Code  Gb  float.o [4]
+?fcmpge32_c_l0_0x       0x008313         Code  Gb  float.o [4]
+?fcmpge32_c_l0_dc32     0x00830c         Code  Gb  float.o [4]
+?fcmpge32_c_l0_l1       0x008310         Code  Gb  float.o [4]
+?fdiv32_l0_l0_dc32      0x008258         Code  Gb  float.o [4]
+?fdiv32_l0_l0_l1        0x00825e         Code  Gb  float.o [4]
+?fmul32_l0_l0_dc32      0x0081b7         Code  Gb  float.o [4]
+?fmul32_l0_l0_l1        0x0081bd         Code  Gb  float.o [4]
+?inc32_0x_0x            0x008807         Code  Gb  long.o [4]
+?inc32_l0_l0            0x0087fd         Code  Gb  long.o [4]
+?inc32_l2_l2            0x008802         Code  Gb  long.o [4]
+?l0                     0x000000         Data  Gb  vregs.o [4]
+?l1                     0x000004         Data  Gb  vregs.o [4]
+?l2                     0x000008         Data  Gb  vregs.o [4]
+?l3                     0x00000c         Data  Gb  vregs.o [4]
+?load24_0x_e0           0x0094a2         Code  Gb  far_util.o [4]
+?load24_0x_e1           0x0094b0         Code  Gb  far_util.o [4]
+?load24_0x_e2           0x0094c8         Code  Gb  far_util.o [4]
+?load24_e0_0x           0x00943e         Code  Gb  far_util.o [4]
+?load24_e0_asp          0x009432         Code  Gb  far_util.o [4]
+?load24_e0_xsp          0x009434         Code  Gb  far_util.o [4]
+?load24_e1_0x           0x009458         Code  Gb  far_util.o [4]
+?load24_e1_asp          0x00944c         Code  Gb  far_util.o [4]
+?load24_e1_xsp          0x00944e         Code  Gb  far_util.o [4]
+?load24_e2_0x           0x009472         Code  Gb  far_util.o [4]
+?load24_e2_asp          0x009466         Code  Gb  far_util.o [4]
+?load24_e2_xsp          0x009468         Code  Gb  far_util.o [4]
+?load24_e3_0x           0x00948a         Code  Gb  far_util.o [4]
+?load24_e3_xsp          0x009480         Code  Gb  far_util.o [4]
+?load24_xsp_e0          0x009498         Code  Gb  far_util.o [4]
+?load24_xsp_e2          0x0094be         Code  Gb  far_util.o [4]
+?load32_0x_l0           0x011a8a         Code  Gb  long_util.o [4]
+?load32_0x_l1           0x011a98         Code  Gb  long_util.o [4]
+?load32_0x_l2           0x011ab0         Code  Gb  long_util.o [4]
+?load32_l0_0x           0x011a5e         Code  Gb  long_util.o [4]
+?load32_l0_asp          0x011a52         Code  Gb  long_util.o [4]
+?load32_l0_dbsp         0x011a44         Code  Gb  long_util.o [4]
+?load32_l0_xsp          0x011a54         Code  Gb  long_util.o [4]
+?load32_l1_0x           0x011a74         Code  Gb  long_util.o [4]
+?load32_l1_xsp          0x011a6a         Code  Gb  long_util.o [4]
+?load32_xsp_l0          0x011a80         Code  Gb  long_util.o [4]
+?load32_xsp_l2          0x011aa6         Code  Gb  long_util.o [4]
+?mov_e0_e1              0x008bcc         Code  Gb  vreg_util.o [4]
+?mov_e0_e2              0x008bd9         Code  Gb  vreg_util.o [4]
+?mov_e0_e3              0x008be6         Code  Gb  vreg_util.o [4]
+?mov_e1_e0              0x008bf3         Code  Gb  vreg_util.o [4]
+?mov_e1_e2              0x008c00         Code  Gb  vreg_util.o [4]
+?mov_e1_e3              0x008c0d         Code  Gb  vreg_util.o [4]
+?mov_e2_e0              0x008c1a         Code  Gb  vreg_util.o [4]
+?mov_e2_e1              0x008c27         Code  Gb  vreg_util.o [4]
+?mov_e3_e0              0x008c34         Code  Gb  vreg_util.o [4]
+?mov_e3_e1              0x008c3e         Code  Gb  vreg_util.o [4]
+?mov_e3_e2              0x008c48         Code  Gb  vreg_util.o [4]
+?mov_l0_l1              0x008bc9         Code  Gb  vreg_util.o [4]
+?mov_l0_l2              0x008bd6         Code  Gb  vreg_util.o [4]
+?mov_l0_l3              0x008be3         Code  Gb  vreg_util.o [4]
+?mov_l1_l0              0x008bf0         Code  Gb  vreg_util.o [4]
+?mov_l1_l2              0x008bfd         Code  Gb  vreg_util.o [4]
+?mov_l1_l3              0x008c0a         Code  Gb  vreg_util.o [4]
+?mov_l2_l0              0x008c17         Code  Gb  vreg_util.o [4]
+?mov_l2_l1              0x008c24         Code  Gb  vreg_util.o [4]
+?mov_l3_l0              0x008c31         Code  Gb  vreg_util.o [4]
+?mov_w0_w4              0x008bb4         Code  Gb  vreg_util.o [4]
+?mov_w1_w3              0x008bcf         Code  Gb  vreg_util.o [4]
+?mov_w1_w5              0x008bdc         Code  Gb  vreg_util.o [4]
+?mov_w1_w7              0x008be9         Code  Gb  vreg_util.o [4]
+?mov_w3_w1              0x008bf6         Code  Gb  vreg_util.o [4]
+?mov_w3_w4              0x008bbb         Code  Gb  vreg_util.o [4]
+?mov_w3_w5              0x008c03         Code  Gb  vreg_util.o [4]
+?mov_w3_w7              0x008c10         Code  Gb  vreg_util.o [4]
+?mov_w5_w1              0x008c1d         Code  Gb  vreg_util.o [4]
+?mov_w5_w3              0x008c2a         Code  Gb  vreg_util.o [4]
+?mov_w6_w1              0x008bc2         Code  Gb  vreg_util.o [4]
+?mov_w7_w1              0x008c37         Code  Gb  vreg_util.o [4]
+?mov_w7_w3              0x008c41         Code  Gb  vreg_util.o [4]
+?mov_w7_w5              0x008c4b         Code  Gb  vreg_util.o [4]
+?mul16_x_x_w0           0x011b0a         Code  Gb  short.o [4]
+?mul32_l0_l0_0x         0x008869         Code  Gb  long.o [4]
+?mul32_l0_l0_l1         0x008872         Code  Gb  long.o [4]
+?neg32_l0_l0            0x0087ed         Code  Gb  long.o [4]
+?or32_l0_l0_0x          0x0089fa         Code  Gb  long.o [4]
+?or32_l0_l0_l1          0x0089f7         Code  Gb  long.o [4]
+?pop_e0                 0x008ae5         Code  Gb  vreg_util.o [4]
+?pop_e1                 0x008af4         Code  Gb  vreg_util.o [4]
+?pop_e2                 0x008b03         Code  Gb  vreg_util.o [4]
+?pop_e3                 0x008b12         Code  Gb  vreg_util.o [4]
+?pop_l0                 0x008b65         Code  Gb  vreg_util.o [4]
+?pop_l1                 0x008b70         Code  Gb  vreg_util.o [4]
+?pop_l2                 0x008b7b         Code  Gb  vreg_util.o [4]
+?pop_l3                 0x008b86         Code  Gb  vreg_util.o [4]
+?pop_w4                 0x008a54         Code  Gb  vreg_util.o [4]
+?pop_w6                 0x008a5b         Code  Gb  vreg_util.o [4]
+?pop_w7                 0x008a62         Code  Gb  vreg_util.o [4]
+?push_e0                0x008a75         Code  Gb  vreg_util.o [4]
+?push_e1                0x008a91         Code  Gb  vreg_util.o [4]
+?push_e2                0x008aad         Code  Gb  vreg_util.o [4]
+?push_e3                0x008ac9         Code  Gb  vreg_util.o [4]
+?push_l0                0x008b30         Code  Gb  vreg_util.o [4]
+?push_l1                0x008b35         Code  Gb  vreg_util.o [4]
+?push_l2                0x008b3a         Code  Gb  vreg_util.o [4]
+?push_l3                0x008b3f         Code  Gb  vreg_util.o [4]
+?push_w4                0x008a2e         Code  Gb  vreg_util.o [4]
+?push_w6                0x008a33         Code  Gb  vreg_util.o [4]
+?push_w7                0x008a38         Code  Gb  vreg_util.o [4]
+?scmp32_c_l0_0x         0x0089d7         Code  Gb  long.o [4]
+?scmp32_c_l0_l1         0x0089e0         Code  Gb  long.o [4]
+?sdiv32_l0_l0_dl        0x00896d         Code  Gb  long.o [4]
+?sdiv32_l0_l0_l1        0x008971         Code  Gb  long.o [4]
+?sdiv8_xl_a_b0          0x011dce         Code  Gb  char.o [4]
+?sext16_x_a             0x011b46         Code  Gb  short.o [4]
+?sext32_l0_x            0x008a23         Code  Gb  long.o [4]
+?sll16_x_x_4            0x011b41         Code  Gb  short.o [4]
+?sll16_x_x_5            0x011b40         Code  Gb  short.o [4]
+?sll16_x_x_a            0x011b38         Code  Gb  short.o [4]
+?sll32_0x_0x_a          0x008a15         Code  Gb  long.o [4]
+?sll32_l0_l0_a          0x008a12         Code  Gb  long.o [4]
+?smod16_y_x_y           0x011b28         Code  Gb  short.o [4]
+?smod32_l1_l0_dl        0x008967         Code  Gb  long.o [4]
+?smod32_l1_l0_l1        0x008971         Code  Gb  long.o [4]
+?sub32_l0_l0_0x         0x008851         Code  Gb  long.o [4]
+?sub32_l0_l0_l1         0x00884e         Code  Gb  long.o [4]
+?ucmp24_c_0x_e0         0x011f1f         Code  Gb  far.o [4]
+?ucmp32_c_l0_0x         0x0089bc         Code  Gb  long.o [4]
+?ucmp32_c_l0_l1         0x0089cc         Code  Gb  long.o [4]
+?udiv32_l0_l0_dl        0x0088f6         Code  Gb  long.o [4]
+?udiv32_l0_l0_l1        0x0088fa         Code  Gb  long.o [4]
+?umod32_l1_l0_dl        0x0088f0         Code  Gb  long.o [4]
+?umod32_l1_l0_l1        0x0088fa         Code  Gb  long.o [4]
+?w0                     0x000000         Data  Gb  vregs.o [4]
+?w1                     0x000002         Data  Gb  vregs.o [4]
+?w2                     0x000004         Data  Gb  vregs.o [4]
+?w3                     0x000006         Data  Gb  vregs.o [4]
+?w4                     0x000008         Data  Gb  vregs.o [4]
+?w5                     0x00000a         Data  Gb  vregs.o [4]
+?w6                     0x00000c         Data  Gb  vregs.o [4]
+?w7                     0x00000e         Data  Gb  vregs.o [4]
+ADC1_COMP_IRQHandler    0x011a3c    0x1  Code  Gb  stm8l15x_it.o [1]
+ByteToBcd2              0x01130f   0x20  Code  Lc  stm8l15x_rtc.o [1]
+CLK_GetClockFreq        0x00eb4d   0xb3  Code  Gb  stm8l15x_clk.o [1]
+CLK_GetFlagStatus       0x00ef69   0xa3  Code  Gb  stm8l15x_clk.o [1]
+CLK_LSEConfig           0x01128d   0x21  Code  Gb  stm8l15x_clk.o [1]
+CLK_LSICmd              0x01136e   0x1d  Code  Gb  stm8l15x_clk.o [1]
+CLK_PeripheralClockConfig
+                        0x00e6df   0xc3  Code  Gb  stm8l15x_clk.o [1]
+CLK_RTCClockConfig      0x011944    0xb  Code  Gb  stm8l15x_clk.o [1]
+CLK_SYSCLKDivConfig     0x0119f0    0x5  Code  Gb  stm8l15x_clk.o [1]
+CSTACK$$Base            0x000f00          --   Gb  - Linker created -
+CSTACK$$Limit           0x001000          --   Gb  - Linker created -
+CalcNetRunSettings      0x00c8d2  0x1ac  Code  Lc  Network.o [1]
+CalcRandDelay           0x0108ba   0x41  Code  Lc  Network.o [1]
+CalcTimeRFSpeed         0x00f291   0x9e  Code  Lc  Network.o [1]
+CalcUplinkTime          0x00e53f   0xd8  Code  Lc  Network.o [1]
+CalcWakeTime            0x00b7b7  0x22d  Code  Lc  Network.o [1]
+CheckCRC16              0x00ff93   0x5e  Code  Lc  SystSettings.o [1]
+CheckRespJoinOrRTC      0x00a103  0x318  Code  Lc  Network.o [1]
+ChgRFFreq               0x011938    0xc  Code  Lc  Network.o [1]
+ChgRFSpeed              0x00dee5   0xfb  Code  Lc  Network.o [1]
+Comm2TrmProcess         0x000012    0xd  Data  Gb  Comm2Trm.o [1]
+CorrectRTC              0x00c3a2  0x1c9  Code  Lc  Network.o [1]
+DMA1_CHANNEL0_1_IRQHandler
+                        0x010fb2   0x25  Code  Gb  stm8l15x_it.o [1]
+DMA1_CHANNEL2_3_IRQHandler
+                        0x011a2f    0x1  Code  Gb  stm8l15x_it.o [1]
+DMA_ClearITPendingBit   0x00f32f   0x96  Code  Gb  stm8l15x_dma.o [1]
+DMA_Cmd                 0x0113a8   0x1d  Code  Gb  stm8l15x_dma.o [1]
+DMA_DeInit              0x00e7a2   0xc3  Code  Gb  stm8l15x_dma.o [1]
+DMA_GetITStatus         0x00f0af   0xa2  Code  Gb  stm8l15x_dma.o [1]
+DMA_GlobalCmd           0x01138b   0x1d  Code  Gb  stm8l15x_dma.o [1]
+DMA_GlobalDeInit        0x01182a   0x11  Code  Gb  stm8l15x_dma.o [1]
+DMA_ITConfig            0x0110fb   0x22  Code  Gb  stm8l15x_dma.o [1]
+DMA_Init                0x00d753  0x124  Code  Gb  stm8l15x_dma.o [1]
+DMA_SetCurrDataCounter  0x0117c1   0x12  Code  Gb  stm8l15x_dma.o [1]
+DelayMs                 0x0108fb   0x3f  Code  Gb  sx1278_ports.o [1]
+EXTI0_IRQHandler        0x011a33    0x1  Code  Gb  stm8l15x_it.o [1]
+EXTI1_IRQHandler        0x011a34    0x1  Code  Gb  stm8l15x_it.o [1]
+EXTI2_IRQHandler        0x011a35    0x1  Code  Gb  stm8l15x_it.o [1]
+EXTI3_IRQHandler        0x011a36    0x1  Code  Gb  stm8l15x_it.o [1]
+EXTI4_IRQHandler        0x011a37    0x1  Code  Gb  stm8l15x_it.o [1]
+EXTI5_IRQHandler        0x011a38    0x1  Code  Gb  stm8l15x_it.o [1]
+EXTI6_IRQHandler        0x01113f   0x22  Code  Gb  stm8l15x_it.o [1]
+EXTI7_IRQHandler        0x011a39    0x1  Code  Gb  stm8l15x_it.o [1]
+EXTIB_G_IRQHandler      0x011a31    0x1  Code  Gb  stm8l15x_it.o [1]
+EXTID_H_IRQHandler      0x011a32    0x1  Code  Gb  stm8l15x_it.o [1]
+EXTIE_F_PVD_IRQHandler  0x011a30    0x1  Code  Gb  stm8l15x_it.o [1]
+EXTI_ClearITPendingBit  0x0110b4   0x24  Code  Gb  stm8l15x_exti.o [1]
+EXTI_SetPinSensitivity  0x00ca7e  0x17c  Code  Gb  stm8l15x_exti.o [1]
+FLASH_GetFlagStatus     0x0115d7   0x1a  Code  Gb  stm8l15x_flash.o [1]
+FLASH_IRQHandler        0x011a2e    0x1  Code  Gb  stm8l15x_it.o [1]
+FLASH_Lock              0x0118eb    0xd  Code  Gb  stm8l15x_flash.o [1]
+FLASH_ProgramByte       0x01194f    0xb  Code  Gb  stm8l15x_flash.o [1]
+FLASH_ProgramOptionByte
+                        0x010c6e   0x2d  Code  Gb  stm8l15x_flash.o [1]
+FLASH_ReadByte          0x0119cb    0x7  Code  Gb  stm8l15x_flash.o [1]
+FLASH_SetProgrammingTime
+                        0x0116be   0x17  Code  Gb  stm8l15x_flash.o [1]
+FLASH_Unlock            0x010f64   0x27  Code  Gb  stm8l15x_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x00ff2e   0x65  Code  Gb  stm8l15x_flash.o [1]
+FetchCfg                0x00e385   0xe1  Code  Lc  SystSettings.o [1]
+GPIO_ExternalPullUpConfig
+                        0x0100a9   0x5a  Code  Gb  stm8l15x_gpio.o [1]
+GPIO_Init               0x00cd55  0x158  Code  Gb  stm8l15x_gpio.o [1]
+GPIO_ResetBits          0x0117d3   0x12  Code  Gb  stm8l15x_gpio.o [1]
+GPIO_SetBits            0x0118f8    0xd  Code  Gb  stm8l15x_gpio.o [1]
+GetAckDelay             0x010b13   0x36  Code  Lc  Network.o [1]
+GetCorrectDelay         0x010b49   0x36  Code  Lc  Network.o [1]
+GetID                   0x01059d   0x4d  Code  Lc  Comm2Trm.o [1]
+GetNetSettings          0x00fe62   0x66  Code  Lc  Comm2Trm.o [1]
+GetPktRSSI              0x010be4   0x2f  Code  Lc  Comm2Trm.o [1]
+GetRFSettings           0x00ee10   0xad  Code  Lc  Comm2Trm.o [1]
+GetRadioBuf             0x00f4e9   0x8f  Code  Lc  Network.o [1]
+GetRadioBufPtr          0x0119bb    0x8  Code  Lc  Network.o [1]
+GetRespBufDataPtr       0x011473   0x1c  Code  Lc  Comm2Trm.o [1]
+GetTime4WakeExchange    0x0105ea   0x4c  Code  Lc  Network.o [1]
+GetTimeMsExt            0x00c1c7  0x1db  Code  Lc  RTC.o [1]
+GetTxPwr                0x01148f   0x1c  Code  Lc  Comm2Trm.o [1]
+HEAP$$Base              0x000040          --   Gb  - Linker created -
+HEAP$$Limit             0x000140          --   Gb  - Linker created -
+I2C1_SPI2_IRQHandler    0x011a43    0x1  Code  Gb  stm8l15x_it.o [1]
+INTVEC$$Base            0x008000          --   Gb  - Linker created -
+INTVEC$$Limit           0x008080          --   Gb  - Linker created -
+IWDG_Enable             0x0119d9    0x7  Code  Gb  stm8l15x_iwdg.o [1]
+IWDG_ReloadCounter      0x0119d2    0x7  Code  Gb  stm8l15x_iwdg.o [1]
+IWDG_SetPrescaler       0x0119fa    0x5  Code  Gb  stm8l15x_iwdg.o [1]
+IWDG_SetReload          0x0119ff    0x5  Code  Gb  stm8l15x_iwdg.o [1]
+IWDG_WriteAccessCmd     0x0119f5    0x5  Code  Gb  stm8l15x_iwdg.o [1]
+JoinOrRTCThread         0x00aec3  0x246  Code  Lc  Network.o [1]
+LCD_AES_IRQHandler      0x011a3a    0x1  Code  Gb  stm8l15x_it.o [1]
+MakeTxRespBuf           0x00dfe0   0xf5  Code  Lc  Comm2Trm.o [1]
+NetworkProcess          0x00002f    0xd  Data  Gb  Network.o [1]
+PWR_FastWakeUpCmd       0x0113c5   0x1d  Code  Gb  stm8l15x_pwr.o [1]
+PWR_UltraLowPowerCmd    0x0113e2   0x1d  Code  Gb  stm8l15x_pwr.o [1]
+ProcUplinkAck           0x00bdf2  0x1f7  Code  Lc  Network.o [1]
+ProcWakeData            0x00a707  0x2d2  Code  Lc  Network.o [1]
+ProcessUartFrame        0x00e9e2   0xb7  Code  Lc  Comm2Trm.o [1]
+PutRadioBufSize         0x010c41   0x2d  Code  Lc  Network.o [1]
+RTC_AlarmCmd            0x00fec8   0x66  Code  Gb  stm8l15x_rtc.o [1]
+RTC_AlarmStructInit     0x00fb72   0x73  Code  Gb  stm8l15x_rtc.o [1]
+RTC_AlarmSubSecondConfig
+                        0x0103bd   0x53  Code  Gb  stm8l15x_rtc.o [1]
+RTC_BypassShadowCmd     0x010eed   0x28  Code  Gb  stm8l15x_rtc.o [1]
+RTC_CSSLSE_IRQHandler   0x01111d   0x22  Code  Gb  stm8l15x_it.o [1]
+RTC_ClearITPendingBit   0x0118b4    0xe  Code  Gb  stm8l15x_rtc.o [1]
+RTC_DateStructInit      0x01093a   0x3e  Code  Gb  stm8l15x_rtc.o [1]
+RTC_DeInit              0x00cead  0x146  Code  Gb  stm8l15x_rtc.o [1]
+RTC_EnterInitMode       0x0109b5   0x3d  Code  Gb  stm8l15x_rtc.o [1]
+RTC_ExitInitMode        0x01195a    0xb  Code  Gb  stm8l15x_rtc.o [1]
+RTC_GetFlagStatus       0x010a68   0x3a  Code  Gb  stm8l15x_rtc.o [1]
+RTC_ITConfig            0x010313   0x56  Code  Gb  stm8l15x_rtc.o [1]
+RTC_Init                0x00f1f1   0xa0  Code  Gb  stm8l15x_rtc.o [1]
+RTC_SetAlarm            0x00ac70  0x253  Code  Gb  stm8l15x_rtc.o [1]
+RTC_SetDate             0x00cff3  0x146  Code  Gb  stm8l15x_rtc.o [1]
+RTC_SetTime             0x00daac  0x117  Code  Gb  stm8l15x_rtc.o [1]
+RTC_SynchroShiftConfig  0x0101b6   0x59  Code  Gb  stm8l15x_rtc.o [1]
+RTC_TimeStructInit      0x0109f2   0x3b  Code  Gb  stm8l15x_rtc.o [1]
+RTC_WaitForSynchro      0x010adc   0x37  Code  Gb  stm8l15x_rtc.o [1]
+RTC_WriteProtectionCmd  0x0115a1   0x1b  Code  Gb  stm8l15x_rtc.o [1]
+RadioCadDone            0x00fff1   0x5d  Code  Lc  Network.o [1]
+RadioCadTimeout         0x01184b   0x10  Code  Lc  Network.o [1]
+RadioRxDone             0x00e0d5   0xe9  Code  Lc  Network.o [1]
+RadioRxError            0x010cf4   0x2c  Code  Lc  Network.o [1]
+RadioRxTimeout          0x010cc8   0x2c  Code  Lc  Network.o [1]
+RadioTxDone             0x0112cf   0x20  Code  Lc  Network.o [1]
+RadioTxTimeout          0x01183b   0x10  Code  Lc  Network.o [1]
+Region$$Table$$Base     0x0080b0          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0080c5          --   Gb  - Linker created -
+ReqJoinOrRTC            0x00e466   0xd9  Code  Lc  Network.o [1]
+SPI1_IRQHandler         0x011a41    0x1  Code  Gb  stm8l15x_it.o [1]
+SPI_Cmd                 0x0113ff   0x1d  Code  Gb  stm8l15x_spi.o [1]
+SPI_DeInit              0x010500   0x4f  Code  Gb  stm8l15x_spi.o [1]
+SPI_GetFlagStatus       0x010f8b   0x27  Code  Gb  stm8l15x_spi.o [1]
+SPI_Init                0x00ea99   0xb4  Code  Gb  stm8l15x_spi.o [1]
+SPI_ReceiveData         0x0118c2    0xe  Code  Gb  stm8l15x_spi.o [1]
+SPI_SendData            0x0117e5   0x12  Code  Gb  stm8l15x_spi.o [1]
+SWITCH_CSS_BREAK_DAC_IRQHandler
+                        0x011a3b    0x1  Code  Gb  stm8l15x_it.o [1]
+SX1278CalcCADPeriod     0x00f00c   0xa3  Code  Gb  sx1278_src.o [1]
+SX1278CalcPreambleNum   0x00eebd   0xac  Code  Gb  sx1278_src.o [1]
+SX1278Dio0IrqHandler    0x00a41b  0x2ec  Code  Gb  sx1278_src.o [1]
+SX1278EnterLowPower     0x01075c   0x49  Code  Gb  sx1278_ports.o [1]
+SX1278ExitLowPower      0x010fd7   0x25  Code  Gb  sx1278_ports.o [1]
+SX1278GetPreambleTime   0x00e924   0xbe  Code  Gb  sx1278_src.o [1]
+SX1278GetTimeOnAir      0x00c721  0x1b1  Code  Gb  sx1278_src.o [1]
+SX1278Init              0x00fd2b   0x69  Code  Gb  sx1278_src.o [1]
+SX1278InitPins          0x00f80e   0x80  Code  Gb  sx1278_ports.o [1]
+SX1278InitTimer         0x0119c3    0x8  Code  Gb  sx1278_ports.o [1]
+SX1278PrepareTx         0x00fc56   0x6b  Code  Gb  sx1278_src.o [1]
+SX1278PullLowResetPin   0x01179c   0x13  Code  Gb  sx1278_ports.o [1]
+SX1278Read              0x0112ae   0x21  Code  Gb  sx1278_src.o [1]
+SX1278ReadBuffer        0x00fcc1   0x6a  Code  Gb  sx1278_ports.o [1]
+SX1278ReadFifo          0x011625   0x1a  Code  Lc  sx1278_src.o [1]
+SX1278Receive           0x00f70c   0x82  Code  Gb  sx1278_src.o [1]
+SX1278Reset             0x01163f   0x1a  Code  Lc  sx1278_src.o [1]
+SX1278Send              0x010d20   0x2c  Code  Gb  sx1278_src.o [1]
+SX1278SetBandwidth      0x0110d8   0x23  Code  Gb  sx1278_src.o [1]
+SX1278SetCAD            0x01054f   0x4e  Code  Gb  sx1278_src.o [1]
+SX1278SetCodingRate     0x01106b   0x25  Code  Gb  sx1278_src.o [1]
+SX1278SetCrcOn          0x011897    0xf  Code  Gb  sx1278_src.o [1]
+SX1278SetFixLen         0x011888    0xf  Code  Gb  sx1278_src.o [1]
+SX1278SetFreq           0x0107a5   0x46  Code  Gb  sx1278_src.o [1]
+SX1278SetInputResetPin  0x011701   0x15  Code  Gb  sx1278_ports.o [1]
+SX1278SetLoRaSettings   0x00e1be   0xe4  Code  Gb  sx1278_src.o [1]
+SX1278SetLowDatarateOptimize
+                        0x011879    0xf  Code  Gb  sx1278_src.o [1]
+SX1278SetOpMode         0x010da2   0x2b  Code  Lc  sx1278_src.o [1]
+SX1278SetOutputResetPin
+                        0x0116d5   0x17  Code  Gb  sx1278_ports.o [1]
+SX1278SetPAOutput       0x010a2d   0x3b  Code  Gb  sx1278_src.o [1]
+SX1278SetPreambleLen    0x01191f    0xd  Code  Gb  sx1278_src.o [1]
+SX1278SetRxContinuous   0x011a24    0x4  Code  Gb  sx1278_src.o [1]
+SX1278SetSleep          0x0118d0    0xe  Code  Gb  sx1278_src.o [1]
+SX1278SetSpreadingFactor
+                        0x011046   0x25  Code  Gb  sx1278_src.o [1]
+SX1278SetSwPin2Rx       0x011021   0x25  Code  Gb  sx1278_ports.o [1]
+SX1278SetSwPin2Tx       0x010ffc   0x25  Code  Gb  sx1278_ports.o [1]
+SX1278SetTxPower        0x00dde8   0xfd  Code  Gb  sx1278_src.o [1]
+SX1278SetTxTimeout      0x011a28    0x4  Code  Gb  sx1278_src.o [1]
+SX1278StartTimer        0x010266   0x57  Code  Gb  sx1278_ports.o [1]
+SX1278StopTimer         0x011a0e    0x5  Code  Gb  sx1278_ports.o [1]
+SX1278Transmit          0x010aa2   0x3a  Code  Gb  sx1278_src.o [1]
+SX1278Write             0x01132f   0x20  Code  Lc  sx1278_src.o [1]
+SX1278WriteBuffer       0x00fd94   0x68  Code  Gb  sx1278_ports.o [1]
+SX1278WriteFifo         0x01160b   0x1a  Code  Lc  sx1278_src.o [1]
+SYSDivFactor            0x011f4d    0x5  Data  Gb  stm8l15x_clk.o [1]
+SaveCfg                 0x00b586  0x231  Code  Lc  SystSettings.o [1]
+SendRFPacket            0x010462   0x4f  Code  Lc  Comm2Trm.o [1]
+SendWakeAck             0x0104b1   0x4f  Code  Lc  Comm2Trm.o [1]
+SendWakeData            0x00f3c5   0x93  Code  Lc  Comm2Trm.o [1]
+SetNextRTCAlarm         0x00cbfa  0x15b  Code  Lc  Network.o [1]
+SetRFSettings           0x00b349  0x23d  Code  Lc  Comm2Trm.o [1]
+SetRespBufDataSize      0x011090   0x24  Code  Lc  Comm2Trm.o [1]
+SetTxPwr                0x00fbe5   0x71  Code  Lc  Comm2Trm.o [1]
+SysTick_handler         0x00fdfc   0x66  Code  Gb  clock.o [1]
+TIM1_CC_IRQHandler      0x011550   0x1b  Code  Gb  stm8l15x_it.o [1]
+TIM1_ClearFlag          0x01186a    0xf  Code  Gb  stm8l15x_tim1.o [1]
+TIM1_ClearITPendingBit  0x01197b    0xa  Code  Gb  stm8l15x_tim1.o [1]
+TIM1_Cmd                0x01141c   0x1d  Code  Gb  stm8l15x_tim1.o [1]
+TIM1_GetCounter         0x010d77   0x2b  Code  Gb  stm8l15x_tim1.o [1]
+TIM1_ITConfig           0x011161   0x22  Code  Gb  stm8l15x_tim1.o [1]
+TIM1_SetCompare1        0x011965    0xb  Code  Gb  stm8l15x_tim1.o [1]
+TIM1_TimeBaseInit       0x010d4c   0x2b  Code  Gb  stm8l15x_tim1.o [1]
+TIM1_UPD_OVF_TRG_COM_IRQHandler
+                        0x011a40    0x1  Code  Gb  stm8l15x_it.o [1]
+TIM2_CC_USART2_RX_IRQHandler
+                        0x011a3e    0x1  Code  Gb  stm8l15x_it.o [1]
+TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler
+                        0x011a3d    0x1  Code  Gb  stm8l15x_it.o [1]
+TIM3_CC_USART3_RX_IRQHandler
+                        0x011535   0x1b  Code  Gb  stm8l15x_it.o [1]
+TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler
+                        0x011a3f    0x1  Code  Gb  stm8l15x_it.o [1]
+TIM4_ClearFlag          0x011985    0xa  Code  Gb  stm8l15x_tim4.o [1]
+TIM4_Cmd                0x011439   0x1d  Code  Gb  stm8l15x_tim4.o [1]
+TIM4_DeInit             0x010df7   0x2a  Code  Gb  stm8l15x_tim4.o [1]
+TIM4_GetFlagStatus      0x0115f1   0x1a  Code  Gb  stm8l15x_tim4.o [1]
+TIM4_ITConfig           0x011183   0x22  Code  Gb  stm8l15x_tim4.o [1]
+TIM4_SetAutoreload      0x011a09    0x5  Code  Gb  stm8l15x_tim4.o [1]
+TIM4_SetCounter         0x011a04    0x5  Code  Gb  stm8l15x_tim4.o [1]
+TIM4_TimeBaseInit       0x0116ec   0x15  Code  Gb  stm8l15x_tim4.o [1]
+TIM4_UPD_OVF_TRG_IRQHandler
+                        0x01156b   0x1b  Code  Gb  stm8l15x_it.o [1]
+TIM5_ClearFlag          0x011905    0xd  Code  Gb  stm8l15x_tim5.o [1]
+TIM5_ClearITPendingBit  0x01198f    0xa  Code  Gb  stm8l15x_tim5.o [1]
+TIM5_Cmd                0x011456   0x1d  Code  Gb  stm8l15x_tim5.o [1]
+TIM5_ITConfig           0x0111a5   0x22  Code  Gb  stm8l15x_tim5.o [1]
+TIM5_SetCounter         0x011970    0xb  Code  Gb  stm8l15x_tim5.o [1]
+TIM5_TimeBaseInit       0x010c9b   0x2d  Code  Gb  stm8l15x_tim5.o [1]
+TRAP_IRQHandler         0x011a2d    0x1  Code  Gb  stm8l15x_it.o [1]
+TimeoutHandler          0x00c56b  0x1b6  Code  Lc  sx1278_src.o [1]
+USART1_RX_TIM5_CC_IRQHandler
+                        0x011a42    0x1  Code  Gb  stm8l15x_it.o [1]
+USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler
+                        0x011586   0x1b  Code  Gb  stm8l15x_it.o [1]
+USART_DMACmd            0x010103   0x5a  Code  Gb  stm8l15x_usart.o [1]
+USART_GetFlagStatus     0x010636   0x4a  Code  Gb  stm8l15x_usart.o [1]
+USART_ITConfig          0x00d3b6  0x139  Code  Gb  stm8l15x_usart.o [1]
+USART_Init              0x00bfe9  0x1de  Code  Gb  stm8l15x_usart.o [1]
+USART_ReceiveData8      0x011912    0xd  Code  Gb  stm8l15x_usart.o [1]
+UplinkThread            0x00d877  0x11b  Code  Lc  Network.o [1]
+WaitJoinOrRTC           0x0114ff   0x1b  Code  Lc  Network.o [1]
+WaitLSEStable           0x01015d   0x59  Code  Lc  Chip.o [1]
+WakeThread              0x00faff   0x73  Code  Lc  Network.o [1]
+__DebugBreak            0x011f78    0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x011de8   0x1a  Code  Gb  __dbg_xxexit.o [3]
+__far_Aldata            0x000b2f    0x6  Data  Gb  xxmemxmalloc.o [4]
+__far_GetMemChunk       0x00937f   0xb3  Code  Gb  xgetmemchunk.o [4]
+__far_findmem           0x0092a7   0xd8  Code  Lc  xxmemxmalloc.o [4]
+__iar_Dint              0x008f70  0x137  Code  Gb  xdint.o [4]
+__iar_copy_init2        0x011b4d   0x40  Code  Gb  init.o [4]
+__iar_data_init2        0x011d26   0x1e  Code  Gb  init.o [4]
+__iar_program_start     0x011e1a         Code  Gb  cstartup.o [4]
+__iar_unhandled_exception
+                        0x011f73         Code  Gb  unhandled_exception.o [4]
+__iar_zero_init2        0x011c50   0x2a  Code  Gb  init.o [4]
+__intvec                0x008000         Data  Gb  interrupt.o [4]
+__low_level_init        0x011f70    0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x011f47         Code  Gb  cexit.o [4]
+_interrupt_1            0x011a2d         Code  Gb  stm8l15x_it.o [1]
+_interrupt_10           0x011a33         Code  Gb  stm8l15x_it.o [1]
+_interrupt_11           0x011a34         Code  Gb  stm8l15x_it.o [1]
+_interrupt_12           0x011a35         Code  Gb  stm8l15x_it.o [1]
+_interrupt_13           0x011a36         Code  Gb  stm8l15x_it.o [1]
+_interrupt_14           0x011a37         Code  Gb  stm8l15x_it.o [1]
+_interrupt_15           0x011a38         Code  Gb  stm8l15x_it.o [1]
+_interrupt_16           0x01113f         Code  Gb  stm8l15x_it.o [1]
+_interrupt_17           0x011a39         Code  Gb  stm8l15x_it.o [1]
+_interrupt_18           0x011a3a         Code  Gb  stm8l15x_it.o [1]
+_interrupt_19           0x011a3b         Code  Gb  stm8l15x_it.o [1]
+_interrupt_20           0x011a3c         Code  Gb  stm8l15x_it.o [1]
+_interrupt_21           0x011a3d         Code  Gb  stm8l15x_it.o [1]
+_interrupt_22           0x011a3e         Code  Gb  stm8l15x_it.o [1]
+_interrupt_23           0x011a3f         Code  Gb  stm8l15x_it.o [1]
+_interrupt_24           0x011535         Code  Gb  stm8l15x_it.o [1]
+_interrupt_25           0x011a40         Code  Gb  stm8l15x_it.o [1]
+_interrupt_26           0x011550         Code  Gb  stm8l15x_it.o [1]
+_interrupt_27           0x01156b         Code  Gb  stm8l15x_it.o [1]
+_interrupt_28           0x011a41         Code  Gb  stm8l15x_it.o [1]
+_interrupt_29           0x011586         Code  Gb  stm8l15x_it.o [1]
+_interrupt_3            0x011a2e         Code  Gb  stm8l15x_it.o [1]
+_interrupt_30           0x011a42         Code  Gb  stm8l15x_it.o [1]
+_interrupt_31           0x011a43         Code  Gb  stm8l15x_it.o [1]
+_interrupt_4            0x010fb2         Code  Gb  stm8l15x_it.o [1]
+_interrupt_5            0x011a2f         Code  Gb  stm8l15x_it.o [1]
+_interrupt_6            0x01111d         Code  Gb  stm8l15x_it.o [1]
+_interrupt_7            0x011a30         Code  Gb  stm8l15x_it.o [1]
+_interrupt_8            0x011a31         Code  Gb  stm8l15x_it.o [1]
+_interrupt_9            0x011a32         Code  Gb  stm8l15x_it.o [1]
+abs                     0x011ee8    0xb  Code  Gb  abs.o [4]
+add_timer               0x00d27c  0x13a  Code  Lc  etimer.o [1]
+buflen                  0x000b76    0x2  Data  Lc  packetbuf.o [1]
+bufptr                  0x000b78    0x2  Data  Lc  packetbuf.o [1]
+call_process            0x00dcd9  0x10f  Code  Lc  process.o [1]
+ceil                    0x011abe   0x4c  Code  Gb  ceil.o [4]
+chip_EnterLowPwr        0x00d4ef  0x132  Code  Gb  Chip.o [1]
+chip_ExitLowPwr         0x00d621  0x132  Code  Gb  Chip.o [1]
+chip_GetDevID           0x0119ab    0x8  Code  Gb  Chip.o [1]
+chip_GetID              0x0119b3    0x8  Code  Gb  Chip.o [1]
+chip_Init               0x00b109  0x240  Code  Gb  Chip.o [1]
+chip_LED2Off            0x011750   0x13  Code  Gb  Chip.o [1]
+chip_LED2On             0x011763   0x13  Code  Gb  Chip.o [1]
+chip_LEDOff             0x01172a   0x13  Code  Gb  Chip.o [1]
+chip_LEDOn              0x01173d   0x13  Code  Gb  Chip.o [1]
+clock_init              0x010bb4   0x30  Code  Gb  clock.o [1]
+clock_start             0x0111c7   0x21  Code  Gb  clock.o [1]
+clock_stop              0x0111e8   0x21  Code  Gb  clock.o [1]
+clock_time              0x0117f7   0x11  Code  Gb  clock.o [1]
+comm2trm_BeginRxData    0x011808   0x11  Code  Gb  Comm2Trm.o [1]
+comm2trm_GetUplinkData  0x0106ca   0x49  Code  Gb  Comm2Trm.o [1]
+comm2trm_GetWakeAck     0x010713   0x49  Code  Gb  Comm2Trm.o [1]
+comm2trm_Init           0x0114ab   0x1c  Code  Gb  Comm2Trm.o [1]
+comm2trm_RxUartData     0x00ecb2   0xb0  Code  Gb  Comm2Trm.o [1]
+comm2trm_RxWakeData     0x0102bd   0x56  Code  Gb  Comm2Trm.o [1]
+comm2trm_UpdateNetSettings
+                        0x011209   0x21  Code  Gb  Comm2Trm.o [1]
+cpc_DMATxIRQHandler     0x010c13   0x2e  Code  Gb  CommPC.o [1]
+cpc_EnRx                0x010877   0x43  Code  Gb  CommPC.o [1]
+cpc_Init                0x00dbc3  0x116  Code  Gb  CommPC.o [1]
+cpc_RxIRQHandler        0x010b7f   0x35  Code  Gb  CommPC.o [1]
+cpc_Tx                  0x00f578   0x8a  Code  Gb  CommPC.o [1]
+current_clock           0x000b62    0x2  Data  Lc  clock.o [1]
+current_seconds         0x000b39    0x4  Data  Lc  clock.o [1]
+do_event                0x00d992  0x11a  Code  Lc  process.o [1]
+do_poll                 0x00f458   0x91  Code  Lc  process.o [1]
+e2_Init                 0x0119e0    0x6  Code  Gb  EEPROM.o [1]
+e2_Rd                   0x00f151   0xa0  Code  Gb  EEPROM.o [1]
+e2_Wr                   0x00e617   0xc8  Code  Gb  EEPROM.o [1]
+energest_init           0x011a2c    0x1  Code  Gb  energest.o [1]
+etimer_next_expiration_time
+                        0x0118a6    0xe  Code  Gb  etimer.o [1]
+etimer_pending          0x0116a6   0x18  Code  Gb  etimer.o [1]
+etimer_process          0x00001f    0xd  Data  Gb  etimer.o [1]
+etimer_request_poll     0x01192c    0xc  Code  Gb  etimer.o [1]
+etimer_set              0x010e4b   0x29  Code  Gb  etimer.o [1]
+events                  0x00096b   0xe0  Data  Lc  process.o [1]
+exit                    0x011f63    0x4  Code  Gb  exit.o [4]
+exit_process            0x00a9d9  0x297  Code  Lc  process.o [1]
+fevent                  0x000b8d    0x1  Data  Lc  process.o [1]
+free                    0x008586  0x1cb  Code  Gb  xxmemxfree.o [4]
+hdrptr                  0x000b8a    0x1  Data  Lc  packetbuf.o [1]
+labs                    0x011f32    0x9  Code  Gb  labs.o [4]
+lastevent               0x000b8b    0x1  Data  Lc  process.o [1]
+main                    0x010369   0x54  Code  Gb  main.o [1]
+malloc                  0x008c52  0x17d  Code  Gb  xxmemxmalloc.o [4]
+memcpy                  0x011bc6   0x31  Code  Gb  memcpy.o [4]
+network_AlarmByRTC      0x010f3d   0x27  Code  Gb  Network.o [1]
+network_GetPktRSSI      0x011a18    0x4  Code  Gb  Network.o [1]
+network_Init            0x01020f   0x57  Code  Gb  Network.o [1]
+network_IsJoinNet       0x0118de    0xd  Code  Gb  Network.o [1]
+network_UpdateNetSettings
+                        0x010e74   0x29  Code  Gb  Network.o [1]
+network_UpdateTxPwr     0x011716   0x14  Code  Gb  Network.o [1]
+nevents                 0x000b8c    0x1  Data  Lc  process.o [1]
+next_expiration         0x000b64    0x2  Data  Lc  etimer.o [1]
+next_rtimer             0x000b59    0x3  Data  Lc  rtimer.o [1]
+packetbuf               0x00003c    0x3  Data  Lc  packetbuf.o [1]
+packetbuf_addrs         0x000b1f    0x8  Data  Gb  packetbuf.o [1]
+packetbuf_aligned       0x000140  0x132  Data  Lc  packetbuf.o [1]
+packetbuf_attr_clear    0x010410   0x52  Code  Gb  packetbuf.o [1]
+packetbuf_attrs         0x000a4b   0x30  Data  Gb  packetbuf.o [1]
+packetbuf_clear         0x010dcd   0x2a  Code  Gb  packetbuf.o [1]
+packetbuf_datalen       0x011a20    0x4  Code  Gb  packetbuf.o [1]
+packetbuf_dataptr       0x0114c7   0x1c  Code  Gb  packetbuf.o [1]
+packetbuf_set_datalen   0x011a1c    0x4  Code  Gb  packetbuf.o [1]
+packetbufptr            0x000b47    0x3  Data  Lc  packetbuf.o [1]
+pm_AgrHalt              0x01122a   0x21  Code  Gb  PwrManage.o [1]
+pm_EnterLowPwr          0x01151a   0x1b  Code  Gb  PwrManage.o [1]
+pm_ExitLowPwr           0x011776   0x13  Code  Gb  PwrManage.o [1]
+pm_Init                 0x0119e6    0x5  Code  Gb  PwrManage.o [1]
+pm_OpposeHalt           0x0112ef   0x20  Code  Gb  PwrManage.o [1]
+poll_requested          0x000b8e    0x1  Data  Lc  process.o [1]
+process_current         0x000b4d    0x3  Data  Gb  process.o [1]
+process_init            0x010e9d   0x28  Code  Gb  process.o [1]
+process_is_running      0x01168d   0x19  Code  Gb  process.o [1]
+process_list            0x000b4a    0x3  Data  Gb  process.o [1]
+process_poll            0x01004e   0x5b  Code  Gb  process.o [1]
+process_post            0x00f98b   0x7c  Code  Gb  process.o [1]
+process_post_synch      0x010978   0x3d  Code  Gb  process.o [1]
+process_run             0x01134f   0x1f  Code  Gb  process.o [1]
+process_start           0x00e2a2   0xe3  Code  Gb  process.o [1]
+process_thread_Comm2TrmProcess
+                        0x00f88e   0x7f  Code  Lc  Comm2Trm.o [1]
+process_thread_NetworkProcess
+                        0x00bbf2  0x200  Code  Lc  Network.o [1]
+process_thread_etimer_process
+                        0x009d0f  0x3f4  Code  Lc  etimer.o [1]
+rimeaddr_copy           0x010ec5   0x28  Code  Gb  rimeaddr.o [1]
+rimeaddr_null           0x011f76    0x2  Data  Gb  rimeaddr.o [1]
+rtc_EnAlarm             0x0117af   0x12  Code  Gb  RTC.o [1]
+rtc_GetTimeMs           0x01185b    0xf  Code  Gb  RTC.o [1]
+rtc_Init                0x00f688   0x84  Code  Gb  RTC.o [1]
+rtc_SetAlarm            0x00b9e4  0x20e  Code  Gb  RTC.o [1]
+rtc_SetMs               0x00e865   0xbf  Code  Gb  RTC.o [1]
+rtc_SetTimeSec          0x00f78e   0x80  Code  Gb  RTC.o [1]
+rtimer_arch_disable_irq
+                        0x011999    0x9  Code  Gb  rtimer-arch.o [1]
+rtimer_arch_init        0x01124b   0x21  Code  Gb  rtimer-arch.o [1]
+rtimer_arch_now         0x0114e3   0x1c  Code  Gb  rtimer-arch.o [1]
+rtimer_arch_schedule    0x01126c   0x21  Code  Gb  rtimer-arch.o [1]
+rtimer_init             0x0119eb    0x5  Code  Gb  rtimer.o [1]
+rtimer_irq_handler      0x011789   0x13  Code  Gb  rtimer-arch.o [1]
+rtimer_reset            0x011819   0x11  Code  Gb  rtimer.o [1]
+rtimer_run_next         0x00ec00   0xb2  Code  Gb  rtimer.o [1]
+rtimer_set              0x00ed62   0xae  Code  Gb  rtimer.o [1]
+s_abyCPCTxBuf           0x00067c   0xff  Data  Lc  CommPC.o [1]
+s_abyCRC16High          0x0090a7  0x100  Data  Lc  Util.o [1]
+s_abyCRC16Low           0x0091a7  0x100  Data  Lc  Util.o [1]
+s_abyWakeDataBuf        0x00057d   0xff  Data  Lc  Comm2Trm.o [1]
+s_achSN                 0x000acb   0x19  Data  Lc  Chip.o [1]
+s_adBW                  0x011c7a   0x28  Data  Lc  sx1278_src.o [1]
+s_apstCfgSave           0x011f6d    0x3  Data  Lc  SystSettings.o [1]
+s_astBwSfFec            0x011d08   0x1e  Data  Lc  Network.o [1]
+s_astConfigGPIO         0x008e28  0x148  Data  Lc  Chip.o [1]
+s_astDefaultSizePtr     0x011f52    0x5  Data  Lc  SystSettings.o [1]
+s_astRadioBuf           0x000272  0x104  Data  Lc  Network.o [1]
+s_bChClear              0x000b7e    0x1  Data  Lc  Network.o [1]
+s_bEnterHalt            0x000b92    0x1  Data  Lc  PwrManage.o [1]
+s_bIsDMABusy            0x000b7c    0x1  Data  Lc  CommPC.o [1]
+s_bIsLockedComm2TrmBuf  0x000b7b    0x1  Data  Lc  Comm2Trm.o [1]
+s_bIsLowPwr             0x000b7a    0x1  Data  Lc  Chip.o [1]
+s_bTim4UARTIsOn         0x000b94    0x1  Data  Lc  Tim4UART.o [1]
+s_chCorrectRTCFailed    0x000b80    0x1  Data  Lc  Network.o [1]
+s_chPacketSnr           0x000b7d    0x1  Data  Lc  Network.o [1]
+s_nPacketRssi           0x000b66    0x2  Data  Lc  Network.o [1]
+s_pbyRespBuf            0x011f67    0x3  Data  Lc  Comm2Trm.o [1]
+s_pfnThread             0x000b44    0x3  Data  Lc  Network.o [1]
+s_pstRadioEvents        0x000b5c    0x3  Data  Lc  sx1278_src.o [1]
+s_stCfgSaveNetSettings  0x011f29    0x9  Data  Lc  SystSettings.o [1]
+s_stComm2TrmData        0x00047a  0x103  Data  Lc  Comm2Trm.o [1]
+s_stLoRaSettings        0x000af8   0x11  Data  Lc  sx1278_src.o [1]
+s_stNetSettings         0x000a96   0x1b  Data  Lc  Network.o [1]
+s_stNetSettingsC2T      0x000a7b   0x1b  Data  Lc  Comm2Trm.o [1]
+s_stNetSettingsDefault  0x011d98   0x1b  Data  Lc  SystSettings.o [1]
+s_stPacketHandler       0x000b3d    0x4  Data  Lc  sx1278_src.o [1]
+s_stParseRFBuf          0x000376  0x104  Data  Lc  Network.o [1]
+s_stRFEvents            0x011e02   0x18  Data  Lc  Network.o [1]
+s_stRTimer              0x000b27    0x8  Data  Lc  sx1278_ports.o [1]
+s_stTimeRFSpeed         0x000ae4   0x14  Data  Lc  Network.o [1]
+s_stUniqueID            0x000b09    0xc  Data  Lc  Chip.o [1]
+s_stUplinkDataBuf       0x00077b   0xf8  Data  Lc  Comm2Trm.o [1]
+s_stWNetRunSettings     0x000ab1   0x1a  Data  Lc  Network.o [1]
+s_stWakeAckBuf          0x000873   0xf8  Data  Lc  Comm2Trm.o [1]
+s_tCADEndTime           0x000b68    0x2  Data  Lc  Network.o [1]
+s_tDevID                0x000b35    0x4  Data  Lc  Chip.o [1]
+s_tNetworkThread        0x00002c    0x1  Data  Lc  Network.o [1]
+s_tPwrAgrHalt           0x000b91    0x1  Data  Lc  PwrManage.o [1]
+s_tRFResult             0x000b7f    0x1  Data  Lc  Network.o [1]
+s_tRFRxDone             0x00002e    0x1  Data  Lc  Network.o [1]
+s_tRadioState           0x000b93    0x1  Data  Lc  sx1278_src.o [1]
+s_tStatusRFRx           0x00002d    0x1  Data  Lc  Network.o [1]
+second_countdown        0x000010    0x2  Data  Lc  clock.o [1]
+spi_InOut               0x00fa83   0x7c  Code  Gb  SPI.o [1]
+spi_Init                0x00fa07   0x7c  Code  Gb  SPI.o [1]
+ss_FetchNetSettings     0x011659   0x1a  Code  Gb  SystSettings.o [1]
+ss_Init                 0x0094d6  0x839  Code  Gb  SystSettings.o [1]
+ss_SaveNetSettings      0x011673   0x1a  Code  Gb  SystSettings.o [1]
+strcat                  0x011b8d   0x39  Code  Gb  strcat.o [4]
+strcpy                  0x011ca2   0x28  Code  Gb  strcpy.o [4]
+strlen                  0x011db3   0x1b  Code  Gb  strlen.o [4]
+tim4uart_ISR            0x0119a2    0x9  Code  Gb  Tim4UART.o [1]
+tim4uart_Start          0x00f90d   0x7e  Code  Gb  Tim4UART.o [1]
+tim4uart_Stop           0x010f15   0x28  Code  Gb  Tim4UART.o [1]
+timer_expired           0x010680   0x4a  Code  Gb  timer.o [1]
+timer_set               0x0107eb   0x46  Code  Gb  timer.o [1]
+timerlist               0x000b41    0x3  Data  Lc  etimer.o [1]
+update_time             0x00d139  0x143  Code  Lc  etimer.o [1]
+util_CRC16              0x00f602   0x86  Code  Gb  Util.o [1]
+util_CalcCS             0x010e21   0x2a  Code  Gb  Util.o [1]
+util_GetRand16          0x010831   0x46  Code  Gb  Util.o [1]
+wdg_Feed                0x011a13    0x5  Code  Gb  Wdg.o [1]
+wdg_InitAndEnable       0x0115bc   0x1b  Code  Gb  Wdg.o [1]
+
+
+[1] = F:\RimeTDMANodeCode\Node\SourceProj\Project\IAR\Debug\Obj
+[2] = command line
+[3] = dbgstm8mld.a
+[4] = dlstm8mln.a
+
+  39 332 bytes of readonly  code memory
+   1 493 bytes of readonly  data memory
+   3 221 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,2853 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1969204540</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\random.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\ringbuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\print-stats.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\sensors.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim2.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dac.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_syscfg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\EEPROM.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\RF\sx1278_ports.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mmem.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ifft.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_comp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Util.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1278_src.pbi</file>
+      <file>$PROJ_DIR$\..\..\Application\Include\Comm2Trm.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\multihop.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\abc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\profile.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\DebugPort.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\print-stats.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim2.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\energest.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Chip.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\PwrManage.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim5.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ifft.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_beep.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Network.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Monitor.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\PwrManage.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\timetable.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable-aggregate.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Include\Tim4UART.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\loader.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\polite.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\profile.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\RTC.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_itc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_wwdg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rimeaddr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\me.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8l151c8.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_lcd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SHT7x.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Comm2Trm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_iwdg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_aes.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\stunicast.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\collect-neighbor.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\CommPC.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\collect-link-estimate.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rtc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\autostart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_pwr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\mac\framer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\procinit.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Include\TempTimer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\DebugPort.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_wwdg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\SystSettings.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\mac\mac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rst.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\RF\sx1276Regs-LoRa.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\RF\sx1278_src.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\resolv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\packetbuf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\rimeaddr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\uipopt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Include\stm8l15x_it.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_itc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8mln.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\SHT7x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\netflood.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\psock.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable-aggregate.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_pwr.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\dev\radio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\rucb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\etimer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\cc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\strncasecmp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1278_src.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\strncasecmp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\ctimer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPI.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_wfe.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\timesynch.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\me.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Network.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim3.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rimeaddr.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\me_tabs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\runicast.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\process.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\trickle.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\netstack.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\checkpoint.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\memb.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_beep.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_aes.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_irtim.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_comp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\RTC.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Tim4UART.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\TempTimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\assert.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\settings.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\libconio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\CommPC.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\memb.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Comm2Trm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\autostart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\petsciiconv.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\arg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\petsciiconv.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\profile.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1278_ports.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\lc-switch.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mmem.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_lcd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_irtim.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rst.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\uip-udp-packet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_iwdg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_i2c.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rtc.pbi</file>
+      <file>$PROJ_DIR$\..\..\Application\Include\Monitor.h</file>
+      <file>$PROJ_DIR$\..\..\Application\Include\PwrManage.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\list.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_syscfg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\stimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\mesh.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim4.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\ipolite.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\LoRaNode.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Include\EEPROM.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\uip.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\compower.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\rimestats.h</file>
+      <file>$PROJ_DIR$\Debug\List\templproj.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\arg.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\uip_arp.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gcr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\procinit.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Util.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_wfe.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Application\Include\Util.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\procinit.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Include\Chip.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gcr.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\collect.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\arg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\uip-fw.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\announcement.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\contiki-version.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\uip-fw-drv.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.o</file>
+      <file>$PROJ_DIR$\..\..\main.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Dbg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_adc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim5.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\libconio.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\contiki.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ctimer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\neighbor-discovery.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_beep.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\ports\contiki-conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\chameleon.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\ringbuf.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Include\SPI.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim3.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ctimer.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPI.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\trickle-timer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Include\RTC.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dac.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\checkpoint.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\trickle-timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_comp.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Wdg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\assert.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_syscfg.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wfe.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SPI.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\uiplib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Tim4UART.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Wdg.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\DebugPort.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Application\Include\Dbg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rst.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1278_ports.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim3.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1278_src.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_itc.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\rtimer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\memb.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rtc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim5.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\clock.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\timetable-aggregate.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\CommPC.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stimer.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\polite-announcement.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\sensors.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\PwrManage.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Dbg.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\me_tabs.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Comm2Trm.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_irtim.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\mac\rdc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\procinit.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\print-stats.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\lc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\queuebuf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\profile.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\autostart.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\Application\Include\SystSettings.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sensors.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Network.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable-aggregate.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\rmh.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ctimer.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\packetbuf.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\random.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Monitor.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Dbg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\energest.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Chip.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\dev\eeprom.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\me_tabs.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\assert.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\checkpoint.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\RTC.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\process.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim2.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\ifft.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Util.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\EEPROM.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\TempTimer.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8mld.a</file>
+      <file>$PROJ_DIR$\..\..\Driver\CommPC.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Include\stm8l15x_conf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1278_ports.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_beep.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\SHT7x.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\tcpip.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\packetqueue.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\templproj.out</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\RF\sx1276Regs-Fsk.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\LoRaNode.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim4.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\packetbuf.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\compower.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\settings.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sensors.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\channel.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ringbuf.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\route.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Include\DebugPort.h</file>
+      <file>$PROJ_DIR$\..\..\Application\Include\Network.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\random.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timetable.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\me.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\trickle-timer.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim4.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\memb.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\libconio.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer-arch.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\etimer.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_spi.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\mmem.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\arg.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\random.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_i2c.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_aes.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_irtim.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_lcd.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rst.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_pwr.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\rimeaddr.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_comp.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\ringbuf.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\compower.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\gcr.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\process.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\SystSettings.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\petsciiconv.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\strncasecmp.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\settings.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dma.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\EEPROM.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\energest.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\compower.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_iwdg.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_wwdg.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\print-stats.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ringbuf.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_flash.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\etimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\process.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dac.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\print-stats.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\simple-udp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\trickle-timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\random.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_wfe.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\mmem.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\sensors.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\memb.c</file>
+      <file>$PROJ_DIR$\..\..\Application\Source\PwrManage.c</file>
+      <file>$PROJ_DIR$\..\..\Application\Source\SystSettings.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Application\Source\Util.c</file>
+      <file>$PROJ_DIR$\..\..\Application\Source\Network.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\checkpoint.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\crc16.c</file>
+      <file>$PROJ_DIR$\..\..\Application\Source\Monitor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\gcr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\ifft.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\libconio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Application\Source\Dbg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\list.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\me.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\me_tabs.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\petsciiconv.c</file>
+      <file>$PROJ_DIR$\..\..\Application\Source\Comm2Trm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\mmem.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h</file>
+      <file>$PROJ_DIR$\..\..\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\contiki-net.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\..\..\Driver\stm8l15x_it.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\Tim4UART.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SystSettings.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\TempTimer.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\broadcast.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\me_tabs.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\libconio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Chip.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\TempTimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\Wdg.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer-arch.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_itc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\etimer.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\RF\sx1278_src.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\RF\sx1278_ports.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Include\Wdg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Tim4UART.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\unicast.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_flash.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\settings.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Include\SHT7x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_i2c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtimer-arch.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Wdg.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\route-discovery.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8mln.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\contiki-lib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\autostart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\pt.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stimer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\contiki-default-conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\energest.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\packetbuf.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Monitor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\ports\rtimer-arch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\checkpoint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim2.c</file>
+      <file>$PROJ_DIR$\..\..\Driver\DebugPort.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_pwr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim5.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_itc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_wfe.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim3.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_spi.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dma.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim1.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim4.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\SHT7x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_irtim.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_dma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_syscfg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_wwdg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_iwdg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\RTC.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\SPI.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\Chip.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_dac.c</file>
+      <file>$PROJ_DIR$\..\..\Driver\CommPC.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\EEPROM.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\ifft.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_rst.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_lcd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\ports\clock.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\trickle-timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\ports\rtimer-arch.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_comp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\ports\hal.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\timetable.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\timetable-aggregate.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\arg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\etimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\packetbuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\settings.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\compower.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\process.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\profile.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\autostart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\ctimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\rimeaddr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\rtimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_aes.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_beep.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\strncasecmp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\stimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\energest.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\procinit.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 315 175</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\random.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 330</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 345</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 282</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 384 253 210 313 186 441 164 443 223 178 203 198 217 46 183 150 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185 150 178 441 52 31 198 164 203 20 124 195 257 217 210 306 156 5 154 135 373 365 429 253 183 313 186 443 223 46 213 205 122 226 159 119 94 48 248 76 407 238 241 125 231 384</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\ringbuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 326</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 355</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 375</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 212 210 313 186 441 164 443 223 178 203 198</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210 198 186 203 178 313 441 164 212 443 223</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\print-stats.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 268</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 374</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 380 45 193 81 210 313 186 441 164 443 223 178 203 198 189 114 60 104 97 70 253 115 446 269 147 99 433 417 19 80 325 211 270 208 61 63 163 312 138 169 167 18 440 90 259 42 174 279 327 96 107 75 95 249 454 116 450 44 46 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 259 417 270 327 60 211 167 80 116 210 443 163 450 189 208 279 114 198 186 178 70 18 90 249 46 45 44 193 169 42 174 440 96 107 75 313 441 223 312 433 99 325 104 95 380 164 203 61 97 115 253 446 269 147 19 63 138 454 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\templproj.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 317</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 53 143 132 445 222 420 131 57 62 173 120 216 284 72 8 369 425 188 310 32 202 225 243 51 289 250 148 36 34 452 144 24 293 69 21 29 330 112 326 47 438 410 324 435 56 218 411 200 59 209 320 127 221 431 82 98 86 437 152 381 85 157 54 93 153 64 55 165 288 25 111 318 201 197 182 73 100 307 101 415 416 129 137 92 142 224 181 227 88 304</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\mmem.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 342</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 406 163 210 313 186 441 164 443 223 178 203 198 426 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164 203 210 198 186 163 426 313 441 406 178 443 223 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\sensors.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 324</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 275</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 204 194 210 313 198 449 115 446 269 147 99 65 70 253 104 97 249 454 184 41 450 260</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194 97 198 115 210 441 223 249 164 443 65 147 204 186 46 178 203 449 104 184 446 70 426 260 41 313 99 269 253 454 450</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\memb.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 250</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 336</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 204 194 210 313 198 449 115 446 269 147 99 65 70 253 104 97 249 454 184 41 450 138</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194 97 198 115 210 441 223 249 164 443 65 147 204 186 46 178 203 449 104 184 446 70 426 138 41 313 99 269 253 454 450</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Application\Source\PwrManage.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 261</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 313 186 441 164 443 223 178 203 253 210 198 239 183 150 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 17 162 187 430</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 429 313 443 154 198 156 373 150 187 186 178 306 5 135 365 239 223 17 20 52 124 185 195 31 257 253 162 430 441 164 203 210 183 213 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Application\Source\SystSettings.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 415</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 359</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 217 186 441 164 443 223 178 203 46 426 239 198 183 150 313 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 17 171 16 274 220</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 441 198 213 135 164 203 5 365 150 171 186 313 156 154 373 429 183 239 274 178 46 17 20 52 124 185 195 31 257 426 16 443 223 306 205 122 226 159 119 94 48 248 76 407 238 241 125 231 217 220</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Application\Source\Util.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 297</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 239 198 183 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 17 249 210 454 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186 159 241 248 150 183 223 122 94 407 231 210 10 313 213 178 443 205 226 119 48 76 238 125 454 249 198 17 306 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257 239</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Application\Source\Network.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 276</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 313 186 441 164 443 223 178 203 217 46 426 22 446 269 147 115 99 210 198 80 81 249 454 97 70 253 274 220 183 150 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 239 17 16 78 187 162</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 162 186 178 248 97 223 213 150 446 16 269 198 159 241 426 80 274 187 443 441 210 313 122 94 407 231 217 22 115 249 239 78 220 164 203 46 147 454 253 205 226 119 48 76 238 125 183 99 70 306 156 20 5 52 154 124 135 185 373 195 365 31 429 257 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\assert.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 290</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 228</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 44 186 441 164 443 223 178 203 46 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 443 186 441 6 164 223 44 178 203</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\checkpoint.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 222</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 291</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 455 204 194 210 313 186 441 164 443 223 178 203 198 449 115 446 269 147 99 65 70 253 104 97 249 454 184 41 450</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 65 115 210 194 249 198 186 178 204 449 104 184 203 147 70 446 41 313 441 164 443 223 455 253 99 269 454 450</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 273</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Application\Source\Monitor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 283</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 453</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 198</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\gcr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 357</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\ifft.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 296</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 485 210 313 186 441 164 443 223 178 203 198</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210 164 203 198 186 313 441 485 178 443 223</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\libconio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 337</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 419</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 204 194 210 313 198 449 115 446 269 147 99 65 70 253 104 97 249 454 184 41 450 134</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 446 449 97 164 203 184 115 134 441 186 104 269 253 204 46 178 443 223 194 65 249 147 210 426 70 41 450 313 99 454</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Application\Source\Dbg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 284</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 262</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 44 6 217 126 198 239 183 150 313 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 17 328 249 210 454 253</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 441 150 186 185 253 178 52 31 198 46 20 124 195 257 217 328 164 203 183 313 213 156 5 154 135 373 365 429 44 126 239 249 443 223 6 17 306 205 122 226 159 119 94 48 248 76 407 238 241 125 231 210 426 454</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\list.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 225</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 256</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 412</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\me.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 333</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\me_tabs.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 289</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 263</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 418</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\petsciiconv.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 360</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Application\Source\Comm2Trm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 264</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 313 217 44 6 115 446 269 147 99 210 198 187 183 150 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 239 17 274 220 305 329 40 162 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186 46 135 313 306 239 223 5 365 115 40 156 154 373 429 150 183 198 217 187 305 16 178 443 99 20 52 124 185 195 31 257 44 274 329 162 441 164 203 6 446 269 147 210 213 205 122 226 159 119 94 48 248 76 407 238 241 125 231 426 17 220</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 243</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 300</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 451</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 44 6 204 194 210 313 198 449 115 446 269 147 99 65 70 253 104 97 249 454 184 41 450 117 75 95 266 68 19 80 81 325 211 239 183 150 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 17 187 16 274 220 329 10 162 305</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115 449 325 306 313 223 198 135 187 186 184 210 5 365 104 10 441 249 95 81 156 154 373 429 150 274 204 329 220 46 178 443 6 194 65 253 99 70 454 266 80 17 20 52 124 185 195 31 257 183 44 117 19 239 16 162 305 164 203 97 446 41 450 269 147 75 68 211 213 205 122 226 159 119 94 48 248 76 407 238 241 125 231 426</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Driver\stm8l15x_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 381</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 298</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 367</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 84 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 305 198 183 328 78 239 17 187 329 274 220</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 150 186 122 223 94 231 78 159 248 241 183 305 187 313 213 178 443 205 226 119 48 76 238 125 17 373 328 198 329 306 441 164 203 156 20 5 52 154 124 135 185 195 365 31 429 257 239 84 274 220</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\Tim4UART.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 234</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 432</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 217 186 441 164 443 223 178 203 46 313 239 198 183 150 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 17 305 40 16 274 220</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 5 186 365 178 306 135 305 443 441 156 154 373 429 183 239 16 46 223 20 52 124 185 195 31 257 274 313 40 164 203 198 17 213 205 122 226 159 119 94 48 248 76 407 238 241 125 231 217 220</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\TempTimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 416</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 303</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 217 186 441 164 443 223 178 203 46 313 239 198 183 150 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 17 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 122 407 164 203 313 94 231 186 71 441 198 213 159 248 241 239 178 17 205 226 119 48 76 238 125 46 443 223 183 306 156 20 5 52 154 124 135 185 373 195 365 31 429 257 217</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\Wdg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 227</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 235</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 439</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 239 198 183 150 313 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186 185 183 150 52 31 164 203 20 124 195 257 441 306 156 5 154 135 373 365 429 239 46 178 443 223 198 17 313 213 205 122 226 159 119 94 48 248 76 407 238 241 125 231 426</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\RF\sx1278_src.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 246</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 313 186 441 164 443 223 178 203 366 331 442 426 46 78 183 150 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 239 198 17 10 249 210 454 316 77 187</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186 119 150 441 46 239 125 183 10 223 205 76 210 426 77 178 443 331 226 48 238 366 78 316 187 164 203 442 313 213 122 159 94 248 407 241 231 249 198 306 156 20 5 52 154 124 135 185 373 195 365 31 429 257 17 454</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\RF\sx1278_ports.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 307</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 244</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 313 186 441 164 443 223 178 203 154 150 306 205 156 122 20 226 5 159 52 119 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 249 210 198 454 214 183 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 441 257 154 124 150 10 20 195 454 52 185 31 183 164 203 306 156 5 135 373 365 429 210 249 214 198 186 178 443 223 313 213 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim2.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 295</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 365 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 150 223 94 186 122 407 159 248 241 306 178 443 205 226 119 48 76 238 125 313 213 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Driver\DebugPort.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 237</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 20 150 313 306 205 156 122 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 239 198 183 17 328 161 115 446 269 147 99 210</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135 164 203 213 150 5 365 239 313 156 154 373 429 161 441 186 20 52 124 185 195 31 257 17 198 446 159 328 46 178 443 223 306 205 122 226 119 94 48 248 76 407 238 241 125 231 147 426 183 115 99 269 210</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 437</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 346</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 94 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 150 205 443 119 125 306 186 178 226 48 238 223 122 159 94 248 407 241 231 20 313 213 441 164 203 156 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 351</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 185 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 429 164 203 154 313 156 373 150 213 5 135 365 441 20 52 124 185 195 31 257 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim5.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 201</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 252</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 125 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 429 164 203 154 150 313 156 373 213 5 135 365 441 20 52 124 185 195 31 257 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_itc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 247</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 424</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 48 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159 186 241 150 248 223 122 94 407 231 306 178 443 205 226 119 48 76 238 125 313 213 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_wfe.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 385</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 231 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122 150 186 407 223 94 231 159 248 241 306 178 443 205 226 119 48 76 238 125 313 213 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim3.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 245</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 241 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 429 164 203 154 313 156 373 213 5 135 365 441 150 20 52 124 185 195 31 257 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 197</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 236</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 429 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 373 313 156 150 164 203 154 429 213 5 135 365 441 20 52 124 185 195 31 257 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 341</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 407 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 429 164 203 154 313 156 373 150 213 5 135 365 441 20 52 124 185 195 31 257 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 288</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 302</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 238 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 441 20 124 257 150 52 185 31 313 213 164 203 156 5 154 135 373 365 429 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim4.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 318</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 335</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 31 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 150 186 122 223 94 231 159 248 241 306 178 443 205 226 119 48 76 238 125 313 213 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\SHT7x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 309</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 20 150 313 186 441 164 443 223 178 203 306 205 156 122 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 366 331 442 44 46 6 183 436</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 441 373 313 156 164 203 154 429 150 46 183 213 5 135 365 366 20 52 124 185 195 31 257 44 436 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231 331 442 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_irtim.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 348</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 265</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 124 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 441 20 150 124 257 52 185 31 313 213 164 203 156 5 154 135 373 365 429 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 251</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 373 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186 238 150 306 226 178 48 443 205 119 76 125 223 122 159 94 248 407 241 231 313 213 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 431</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 363</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 466</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 159 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 257 150 124 441 20 195 52 185 31 313 213 164 203 156 5 154 135 373 365 429 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_syscfg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 230</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 195 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 248 186 159 241 223 122 94 407 231 306 178 443 205 226 119 48 76 238 125 313 213 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_wwdg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 372</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 257 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 150 178 306 186 226 238 443 205 119 76 125 223 122 159 94 248 407 241 231 313 213 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 376</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 434</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 119 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 443 150 125 205 76 306 186 178 226 48 238 223 122 159 94 248 407 241 231 313 213 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 339</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 52 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 373 313 156 164 203 154 429 150 213 5 135 365 441 20 52 124 185 195 31 257 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 299</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 447</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 154 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 373 313 156 150 164 203 154 429 213 5 135 365 441 20 52 124 185 195 31 257 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_iwdg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 157</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 371</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 135 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 241 186 159 248 150 223 122 94 407 231 306 178 443 205 226 119 48 76 238 125 313 213 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\RTC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 292</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 313 217 22 239 198 183 150 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 17 220</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 407 441 122 313 94 231 239 198 213 159 248 241 186 183 217 20 164 203 178 17 205 226 119 48 76 238 125 22 220 373 46 443 223 306 156 5 52 154 124 135 185 195 365 31 429 257 426</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\SPI.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 232</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 20 150 313 306 205 156 122 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 239 198 183 17 214</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 257 124 20 195 214 186 223 52 185 31 198 407 46 178 443 441 306 156 5 154 135 373 365 429 239 164 203 313 213 205 122 226 159 119 94 48 248 76 238 241 125 231 17 183 426</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\Chip.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 420</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 286</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 239 198 183 150 313 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 17 187 450 249 210 454 214 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 429 150 210 443 313 154 214 441 156 373 46 186 178 198 213 5 135 365 20 187 223 17 52 124 185 195 31 257 249 239 119 450 10 164 203 183 306 205 122 226 159 94 48 248 76 407 238 241 125 231 454 426</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_dac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 379</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 368</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 5 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 429 164 203 154 313 156 373 150 213 5 135 365 441 20 52 124 185 195 31 257 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Driver\CommPC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 255</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 20 150 313 306 205 156 122 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 198 239 183 17 305 16 274 220 162 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 150 186 20 305 124 257 154 441 52 185 31 17 429 198 162 164 203 313 213 156 5 135 373 365 159 239 16 40 46 178 443 223 306 205 122 226 119 94 48 248 76 407 238 241 125 231 183 220 426 274</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\EEPROM.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 301</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 364</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 20 150 313 306 205 156 122 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213 239 198 183 17 171</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 441 125 205 76 171 186 226 48 238 150 164 203 313 213 122 159 94 248 407 241 231 17 183 20 239 46 178 443 223 306 156 5 52 154 124 135 185 373 195 365 31 429 257 198 426</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_rst.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 350</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 76 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 257 150 124 441 20 195 52 185 31 313 213 164 203 156 5 154 135 373 365 429 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 349</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 248 150 313 186 441 164 443 223 178 203 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124 150 257 441 20 195 52 185 31 313 213 164 203 156 5 154 135 373 365 429 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\ports\clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 277</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 253 210 313 186 441 164 443 223 178 203 198 99 97 70 115 446 269 147 125 150 306 205 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 429 231 257 213 430 187</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 313 164 203 150 94 198 122 407 430 147 213 159 248 241 97 210 441 70 446 269 205 226 119 48 76 238 125 99 187 186 178 443 223 115 253 306 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\trickle-timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 224</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 334</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 210 313 186 441 164 443 223 178 203 198 383 104 97 70 253 115 446 269 147 99 384</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 313 223 384 441 269 104 164 443 210 115 383 99 198 186 178 203 253 97 70 446 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\ports\rtimer-arch.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 438</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 338</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 423</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 450 249 210 313 186 441 164 443 223 178 203 198 454 20 150 306 205 156 122 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 31 186 52 178 185 238 313 443 20 124 195 257 454 223 210 306 156 5 154 135 373 365 429 249 198 441 164 203 213 205 122 226 159 119 94 48 248 76 407 241 125 231 450</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 320</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 242</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 20 150 313 186 441 164 443 223 178 203 306 205 156 122 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 238 186 150 306 226 178 48 443 205 119 76 125 223 122 159 94 248 407 241 231 313 213 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_comp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 354</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 226 150 313 186 441 164 443 223 178 203 306 205 156 122 20 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 76 205 443 119 125 306 186 178 226 48 238 223 122 159 94 248 407 241 231 313 213 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\ports\hal.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 310</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 353</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\timetable.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 332</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 319</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 253 210 313 186 441 164 443 223 178 203 198 38 99 249 454 254 44 46 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210 186 99 44 198 223 454 6 38 178 443 249 254 441 253 313 164 203 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 343</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 210 313 186 441 164 443 223 178 203 198 253 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164 186 313 203 441 178 210 198 443 223 253 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\timetable-aggregate.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 278</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 254 38 99 210 313 186 441 164 443 223 178 203 198 249 454 44 46 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 441 44 38 210 6 99 313 164 203 454 186 254 249 198 178 443 223 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\arg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 344</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 204 194 210 313 186 441 164 443 223 178 203 198 449 115 446 269 147 99 65 70 253 104 97 249 454 184 41 450 190</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 104 203 115 210 449 184 186 194 65 249 198 178 147 70 446 41 313 441 164 443 223 204 253 99 269 454 190 450</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\etimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 425</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 340</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 377</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 210 313 186 441 164 443 223 178 203 198 97 70 253 115 446 269 147 99</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115 313 164 203 147 210 97 441 253 446 269 198 186 178 443 223 70 99</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\packetbuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 452</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 281</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 321</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 426 186 441 164 443 223 178 203 46 409 204 194 210 313 198 449 115 446 269 147 99 65 70 253 104 97 249 454 184 41 450 311 172 83 191 196 177 233 155 382 79 91 444 163 138 406 384 45 193 81 189 114 60 433 417 19 80 325 211 270 208 61 63 312 169 167 18 440 90 259 42 174 279 327 96 107 75 95 116 117 266 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 311 198 446 210 114 449 249 270 184 138 189 417 186 223 177 117 104 204 211 163 433 80 46 178 443 441 191 155 91 194 65 253 115 83 172 208 279 81 68 409 45 164 203 196 233 382 79 70 97 41 450 313 99 454 444 384 167 259 327 116 61 325 440 169 19 75 426 269 147 406 193 18 90 42 174 96 107 312 60 63 95 266</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\settings.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 435</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 362</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 323</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 204 194 210 313 186 441 164 443 223 178 203 198 449 115 446 269 147 99 65 70 253 104 97 249 454 184 41 450 133 426 46 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 223 41 115 426 186 210 97 133 70 446 450 313 178 443 99 204 287 194 449 65 104 249 184 253 198 441 164 203 269 147 46 454</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\compower.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 356</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 322</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 210 313 186 441 164 443 223 178 203 198 450 249 454 370 80 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 186 370 164 203 210 450 80 313 441 454 81 178 443 223 249</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\process.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 293</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 358</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 378</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 44 186 441 164 443 223 178 203 46 6 115 446 269 147 99 210 313 198 190</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186 203 446 190 46 178 115 441 6 164 443 147 313 44 223 99 269 210 198</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\profile.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 271</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 145 38 99 210 313 186 441 164 443 223 178 203 198 249 454 254 253 44 46 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99 313 164 203 454 46 44 441 210 186 253 38 249 254 198 178 443 223 6 145</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\autostart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 445</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 272</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 65 115 446 269 147 99 210 313 186 441 164 443 223 178 203 198</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 441 147 446 313 223 115 164 443 99 269 210 198 186 178 203 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 200</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 229</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 205 150 313 186 441 164 443 223 178 203 306 156 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150 185 441 52 31 20 124 195 257 313 213 164 203 156 5 154 135 373 365 429 306 186 178 443 223 205 122 226 159 119 94 48 248 76 407 238 241 125 231</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\ctimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 280</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 104 97 70 253 210 313 186 441 164 443 223 178 203 198 115 446 269 147 99 204 194 449 65 249 454 184 41 450 163</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 454 184 115 441 99 449 163 104 204 97 253 313 164 203 194 65 249 210 70 198 186 178 443 223 446 269 147 41 450</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\net\rime\rimeaddr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 352</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 81 210 313 186 441 164 443 223 178 203 198 426 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 313 164 203 441 186 426 210 198 81 178 443 223 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\rtimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 410</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 294</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 249 210 313 186 441 164 443 223 178 203 198 454 204 194 449 115 446 269 147 99 65 70 253 104 97 184 41 450</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 443 164 210 446 253 313 441 223 70 450 269 115 204 454 198 186 178 203 97 41 99 249 194 449 65 104 184 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_aes.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 347</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 156 150 313 186 441 164 443 223 178 203 306 205 122 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 150 178 306 186 226 238 443 205 119 76 125 223 122 159 94 248 407 241 231 313 213 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_beep.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 308</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 122 150 313 186 441 164 443 223 178 203 306 205 156 20 226 5 159 52 119 154 94 124 48 135 248 185 76 373 407 195 238 365 241 31 125 429 231 257 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205 76 150 443 119 125 306 186 178 226 48 238 223 122 159 94 248 407 241 231 313 213 441 164 203 156 20 5 52 154 124 135 185 373 195 365 31 429 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\lib\strncasecmp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 361</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\stimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 411</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 258</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 448</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 210 313 186 441 164 443 223 178 203 198 253 166</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 441 210 166 313 164 203 253 198 186 178 443 223</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\energest.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 369</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 285</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 450 249 210 313 186 441 164 443 223 178 203 198 454</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186 210 164 249 313 203 441 178 450 198 443 223 454</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Contiki\core\sys\procinit.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 267</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 204 194 210 313 186 441 164 443 223 178 203 198 449 115 446 269 147 99 65 70 253 104 97 249 454 184 41 450</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 104 203 115 210 449 184 186 194 65 249 198 178 147 70 446 41 313 441 164 443 223 204 253 99 269 454 450</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

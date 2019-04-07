@@ -1,0 +1,116 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=1804395129
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints2]
+Bp0=_ 1 "STD_CODE2" "{$PROJ_DIR$\..\..\RF\sx1278_src.c}.983.9" 0 0 1 "" 0 ""
+Bp1=_ 0 "STD_CODE2" "{$PROJ_DIR$\..\..\main.c}.115.1" 0 0 1 "" 0 ""
+Bp2=_ 0 "STD_CODE2" "{$PROJ_DIR$\..\..\main.c}.115.1" 0 0 1 "" 0 ""
+Bp3=_ 0 "STD_CODE2" "{$PROJ_DIR$\..\..\Application\Source\Comm2Trm.c}.114.1" 0 0 1 "" 0 ""
+Bp4=_ 1 "STD_CODE2" "{$PROJ_DIR$\..\..\test_abc_csma_main.c}.317.9" 0 0 1 "" 0 ""
+Count=5
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[struct_types]
+Fmt0=NetAddrItem_t-tNodeID	4	0
+Fmt1=RADIO_BUF-bySize	3	0
+Fmt2=RadioLoRaSettings_t-chPower	3	0
+Fmt3=SYST_CFG_RF-eBROnAir	3	0
+[array_types]
+Fmt0=uint16_t[153]	4	0
+Fmt1=uint8_t[255]	4	0
+[watch_formats]
+Fmt0={W}0:byData	3	0
+Fmt1={W}0:byIrqMask	4	0
+Fmt2={W}0:byReg	4	0
+Fmt3={W}0:byRegVal	4	0
+Fmt4={W}0:bySNR	3	0
+Fmt5={W}0:byVal	4	0
+Fmt6={W}0:chData	3	0
+Fmt7={W}0:chPower	3	0
+Fmt8={W}0:chRSSI	3	0
+Fmt9={W}0:chRegVal	4	0
+Fmt10={W}0:iData	4	0
+Fmt11={W}0:lData	4	0
+Fmt12={W}0:nRSSI	3	0
+Fmt13={W}0:paConfig	4	0
+Fmt14={W}0:paDac	4	0
+Fmt15={W}0:s_abyTx255Bytes	0	2
+Fmt16={W}0:s_bNeedCalcPrepareRx	4	0
+Fmt17={W}0:s_byPower	3	0
+Fmt18={W}0:s_byTestBufBytes	3	0
+Fmt19={W}0:s_byTimePrepareRx	3	0
+Fmt20={W}0:s_chPower	3	0
+Fmt21={W}0:s_chReadIndex	3	0
+Fmt22={W}0:s_chWriteIndex	3	0
+Fmt23={W}0:s_nTimeTxStrobe	3	0
+Fmt24={W}0:s_stDevID	4	0
+Fmt25={W}0:wCRC16	4	0
+Fmt26={W}0:wTemp	4	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\..\SHT71NodeSink_main.c}.132.5" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\..\SHT71NodeSink_main.c}.200.1" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\..\..\Driver\Source\TempTimer.c}.221.1" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\..\..\Driver\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c}.408.5" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$\..\..\RTCAccuracy_main.c}.77.5" 0 0 0 0 "" 0 ""
+Bp5=_ "STD_CODE" "{$PROJ_DIR$\..\..\Application\Source\NetAddrTable.c}.207.1" 0 0 0 0 "" 0 ""
+Bp6=_ "STD_CODE" "{$PROJ_DIR$\..\..\Application\Source\NetAddrTable.c}.184.5" 1 0 0 0 "" 0 ""
+Count=7
+[Aliases]
+Count=0
+SuppressDialog=0

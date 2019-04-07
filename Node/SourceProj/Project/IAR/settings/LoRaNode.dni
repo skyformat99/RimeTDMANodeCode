@@ -1,0 +1,149 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=1081847890
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\..\Application\Source\Network.c}.712.5" 1 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\..\ShareCode\ContikiSTM8LSX1278\Driver\Source\Chip.c}.521.5" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\..\..\Application\Source\Network.c}.1845.17" 1 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\..\..\Driver\stm8l15x_it.c}.264.5" 1 0 0 0 "" 0 ""
+Count=4
+[struct_types]
+Fmt0=CFG_SAVE-wAddrMain	4	0
+Fmt1=COMM_TRM_DATA-byDataLen	3	0
+Fmt2=NetSettings_t-chTxPwr	3	0
+Fmt3=NetSettings_t-tNetAddr	4	0
+Fmt4=NetSettings_t-wJoinNetFlag	4	0
+Fmt5=RADIO_BUF-bySize	3	0
+Fmt6=RF_FRAME_REQ_JOIN-tDevID	4	0
+Fmt7=RF_FRAME_REQ_JOIN-wCRC16	4	0
+Fmt8=RF_FRAME_RESP_JOIN-tDevID	4	0
+Fmt9=RF_FRAME_RESP_JOIN-wCRC16	4	0
+Fmt10=RF_FRAME_UPLINK_ACK-byFlag	4	0
+Fmt11=RF_FRAME_UPLINK_ACK-tAddr	4	0
+Fmt12=RF_FRAME_UPLINK_ACK-wCRC16	4	0
+Fmt13=UPLINK_DATA_BUF-byDataSize	3	0
+[array_types]
+Fmt0=uint8_t[248]	4	0
+Fmt1=uint8_t[6]	4	0
+[watch_formats]
+Fmt0={W}0:byCopySize	3	0
+Fmt1={W}0:byDataSize	3	0
+Fmt2={W}0:byHeadSize	3	0
+Fmt3={W}0:byHour	3	0
+Fmt4={W}0:byMin	3	0
+Fmt5={W}0:byOPT3	4	0
+Fmt6={W}0:byRead	4	0
+Fmt7={W}0:byRegVal	4	0
+Fmt8={W}0:bySSRH	4	0
+Fmt9={W}0:bySSRHAgain	4	0
+Fmt10={W}0:bySSRL	4	0
+Fmt11={W}0:bySSRLAgain	4	0
+Fmt12={W}0:bySec	3	0
+Fmt13={W}0:bySize	3	0
+Fmt14={W}0:byTR1	4	0
+Fmt15={W}0:byTR1Again	4	0
+Fmt16={W}0:byTR2	4	0
+Fmt17={W}0:byTR2Again	4	0
+Fmt18={W}0:byTR3	4	0
+Fmt19={W}0:byTR3Again	4	0
+Fmt20={W}0:chBE	3	0
+Fmt21={W}0:chCnt	3	0
+Fmt22={W}0:chTxPwr	3	0
+Fmt23={W}0:lDiff	3	0
+Fmt24={W}0:lMax	4	0
+Fmt25={W}0:lMin	4	0
+Fmt26={W}0:lWakeTime	3	0
+Fmt27={W}0:nClock	3	0
+Fmt28={W}0:nSubReg	3	0
+Fmt29={W}0:s_chBE	3	0
+Fmt30={W}0:s_chBeaconFailedCnt	3	0
+Fmt31={W}0:s_chCAD	3	0
+Fmt32={W}0:s_chCorrectRTCFailed	3	0
+Fmt33={W}0:s_chJoinNum	3	0
+Fmt34={W}0:s_chMaxAccessCnt	3	0
+Fmt35={W}0:s_chNB	3	0
+Fmt36={W}0:s_chResult	3	0
+Fmt37={W}0:s_chRxNoise	3	0
+Fmt38={W}0:s_chStatus	3	0
+Fmt39={W}0:s_chTxCnt	3	0
+Fmt40={W}0:s_chUplinkFailedCnt	3	0
+Fmt41={W}0:s_chUplinkTestCnt	3	0
+Fmt42={W}0:s_tPwrAgrHalt	4	0
+Fmt43={W}0:wCRC16	4	0
+Fmt44={W}0:wRefFlag	4	0
+Fmt45={W}0:wSSReg	4	0
+Fmt46={W}0:wShadowAddr	4	0
+Fmt47={W}0:wTemp	3	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[Breakpoints2]
+Bp0=_ 1 "STD_CODE2" "{$PROJ_DIR$\..\..\Application\Source\Network.c}.577.17" 0 0 1 "" 0 ""
+Bp1=_ 1 "STD_CODE2" "{$PROJ_DIR$\..\..\Application\Source\Network.c}.735.5" 0 0 1 "" 0 ""
+Bp2=_ 1 "STD_CODE2" "{$PROJ_DIR$\..\..\Application\Source\Network.c}.758.5" 0 0 1 "" 0 ""
+Bp3=_ 1 "STD_CODE2" "{$PROJ_DIR$\..\..\Application\Source\Network.c}.1102.5" 0 0 1 "" 0 ""
+Bp4=_ 1 "STD_CODE2" "{$PROJ_DIR$\..\..\Application\Source\Network.c}.1174.5" 0 0 1 "" 0 ""
+Bp5=_ 0 "STD_CODE2" "{$PROJ_DIR$\..\..\Application\Source\Comm2Trm.c}.879.5" 0 0 1 "" 0 ""
+Bp6=_ 0 "STD_CODE2" "{$PROJ_DIR$\..\..\Application\Source\Network.c}.2266.13" 0 0 1 "" 0 ""
+Bp7=_ 1 "STD_CODE2" "{$PROJ_DIR$\..\..\Application\Source\Comm2Trm.c}.446.5" 0 0 1 "" 0 ""
+Count=8
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Aliases]
+Count=0
+SuppressDialog=0
+[Simulator]
+Freq=16000000
